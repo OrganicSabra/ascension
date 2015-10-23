@@ -26,8 +26,8 @@
 	
 	<div class="row fourths" style="<?php echo $background . $fontColor . $topPad . $botPad; ?>">
 		<div class="widcon">
-			<?php if($row['section_title']) {
-				echo '<h1 class="title">'.$row['section_title'].'</h1>';
+			<?php if($row['top_content']) {
+				echo $row['top_content'];
 			} ?>
 			<div class="fourth">
 				

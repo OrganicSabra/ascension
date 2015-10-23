@@ -35,13 +35,7 @@
 
 	<div class="row fullwidth" style="<?php echo $background . $fontColor; ?>">
 		<div class="widcon" style="<?php echo $topPad . $botPad; ?>">
-			<?php if($row['section_title']) {
-				echo '<h1 class="title" style="'.$titleAlign.'">'.$row['section_title'].'</h1>';
-			} ?>
 			<?php echo $row['content_1']; ?>
-			<?php if($row['bottom_content']) {
-				echo '<div class="bottom">'.$row['bottom_content'].'</div>';
-			} ?>
 		</div>
 	</div>
 
