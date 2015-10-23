@@ -1,10 +1,37 @@
-<?php function oneTwoThird($row,$ID) { ?>
+<?php function oneTwoThird($row,$ID) { 
+	$bgColor = $row['background_color'];
+	$bgImage = $row['background_image'];
+	$fontColor = $row['font_color'];
+	$background = '';
+	if($bgColor) {
+		if($bgImage) {
+			$background = 'background: '.$bgColor.' url(\''.$bgImage.'\') no-repeat center center;';
+		}
+		else {
+			$background = 'background-color: '.$bgColor.';';
+		}
+	}
+	
+	if($fontColor) {
+		$fontColor = 'color: '.$fontColor.';';
+	}
+?>
 
 	<div class="row onetwothirds">
 		<div class="widcon">
-			<?php
-			echo '1/3 x 2/3 Section';
-			?>	
+			<?php if($row['section_title']) {
+				echo '<h1>'.$row['section_title'].'</h1>';
+			} ?>
+			<div class"onethird">
+				<?php echo $row['content_1']; ?>
+			</div>
+			<div class="twothird">
+				<?php echo $row['content_2']; ?>
+			</div>
+			<div class="clear"></div>
+			<?php if($row['bottom_content']) {
+				echo '<div class="bottom">'.$row['bottom_content'].'</div>';
+			} ?>	
 		</div>
 	</div>
 

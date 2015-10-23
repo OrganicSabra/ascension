@@ -23,7 +23,7 @@
 				echo '<h1>'.$row['section_title'].'</h1>';
 			} ?>
 			<?php echo $row['content_1']; ?>
-			<?php if($row['section_title']) {
+			<?php if($row['bottom_content']) {
 				echo '<div class="bottom">'.$row['bottom_content'].'</div>';
 			} ?>
 		</div>

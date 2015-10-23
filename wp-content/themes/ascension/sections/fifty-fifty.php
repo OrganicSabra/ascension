@@ -29,7 +29,7 @@
 				<?php echo $row['content_2']; ?>
 			</div>
 			<div class="clear"></div>
-			<?php if($row['section_title']) {
+			<?php if($row['bottom_content']) {
 				echo '<div class="bottom">'.$row['bottom_content'].'</div>';
 			} ?>
 		</div>	
