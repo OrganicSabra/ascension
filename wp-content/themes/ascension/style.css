@@ -80,6 +80,13 @@ h2.title:before {
 }
 
 h3 {
+	font-size: 35px;
+	padding: 0px 0px 15px 0px;
+	font-weight: 400;
+	margin: 0px;
+}
+
+h4 {
 	font-size: 25px;
 	color: #fff;
 	padding: 0px 0px 15px 0px;
@@ -87,7 +94,7 @@ h3 {
 	margin: 0px;
 }
 
-h4 {
+h5 {
 	font-size: 17px;
 	line-height: 30px;
 	padding: 0px 0px 15px 0px;
