@@ -151,6 +151,29 @@ p {
 	color: #007cbf;
 }
 
+.white-btn-sm {
+	display: inline-block;
+	border: solid 2px #007cbf;
+	background-color: #007cbf;
+	color: #fff;
+	font-size: 14px;
+	padding: 10px 25px;
+}
+.white-btn-lg {
+	display: inline-block;
+	font-size: 20px;
+	border: solid 2px #fff;
+	background-color: #fff;
+	color: #007cbf;
+	margin: 0px 2% 0px 0px;
+	padding: 15px 35px;
+}
+.white-btn-sm:hover,
+.white-btn-lg:hover {
+	background-color: #007cbf;
+	color: #fff;
+}
+
 
 
 /* Alignment */
