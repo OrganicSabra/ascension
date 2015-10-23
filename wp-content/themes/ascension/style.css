@@ -231,6 +231,7 @@ img.aligncenter,
 
 .halves .halftable {
 	display: table;
+	width: 100%;
 }
 .halves .halftable .halfrow {
 	display: table-row;
