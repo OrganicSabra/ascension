@@ -35,10 +35,14 @@
 				echo $row['top_content'];
 			} ?>
 			<div class="half">
-				<?php echo $row['content_1']; ?>
+				<div class="inner">
+					<?php echo $row['content_1']; ?>
+				</div>
 			</div>
 			<div class="half">
-				<?php echo $row['content_2']; ?>
+				<div class="inner">
+					<?php echo $row['content_2']; ?>
+				</div>
 			</div>
 			<div class="clear"></div>
 			<?php if($row['bottom_content']) {
