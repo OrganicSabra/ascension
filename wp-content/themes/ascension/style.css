@@ -130,7 +130,7 @@ p {
 
 .blue-btn-sm {
 	display: inline-block;
-	border: solid 2px #007cbf;
+	border: solid 1px #007cbf;
 	background-color: #007cbf;
 	color: #fff;
 	font-size: 14px;
@@ -139,7 +139,7 @@ p {
 .blue-btn-lg {
 	display: inline-block;
 	font-size: 20px;
-	border: solid 2px #007cbf;
+	border: solid 1px #007cbf;
 	background-color: #007cbf;
 	color: #fff;
 	margin: 0px 2% 0px 0px;
@@ -153,7 +153,7 @@ p {
 
 .white-btn-sm {
 	display: inline-block;
-	border: solid 2px #007cbf;
+	border: solid 1px #fff;
 	background-color: #007cbf;
 	color: #fff;
 	font-size: 14px;
@@ -162,7 +162,7 @@ p {
 .white-btn-lg {
 	display: inline-block;
 	font-size: 20px;
-	border: solid 2px #fff;
+	border: solid 1px #fff;
 	background-color: #fff;
 	color: #007cbf;
 	margin: 0px 2% 0px 0px;
@@ -170,8 +170,8 @@ p {
 }
 .white-btn-sm:hover,
 .white-btn-lg:hover {
-	background-color: #007cbf;
-	color: #fff;
+	background-color: #fff;
+	color: #007cbf;
 }
 
 
