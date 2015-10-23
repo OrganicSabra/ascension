@@ -133,12 +133,24 @@ p {
 	border: solid 2px #007cbf;
 	background-color: #007cbf;
 	color: #fff;
-	padding: 10px 15px;
+	font-size: 14px;
+	padding: 10px 25px;
 }
-.blue-btn:hover {
+.blue-btn-lg {
+	display: inline-block;
+	font-size: 20px;
+	border: solid 2px #007cbf;
+	background-color: #007cbf;
+	color: #fff;
+	padding: 15px 35px;
+}
+.blue-btn-sm:hover,
+.blue-btn-lg:hover {
 	background-color: #fff;
 	color: #007cbf;
 }
+
+
 
 /* Alignment */
 .alignleft {
