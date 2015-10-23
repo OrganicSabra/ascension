@@ -38,7 +38,7 @@
 			<?php if($row['top_content']) {
 				echo $row['top_content'];
 			} ?>
-			<div class"onethird">
+			<div class="onethird">
 				<?php echo $row['content_1']; ?>
 			</div>
 			<div class="twothird">
