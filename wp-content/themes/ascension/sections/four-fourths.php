@@ -39,16 +39,16 @@
 				echo $row['top_content'];
 			} ?>
 			<div class="fourth">
-				
+				<?php echo $row['content_1']; ?>
 			</div>
 			<div class="fourth">
-				
+				<?php echo $row['content_2']; ?>
 			</div>
 			<div class="fourth">
-				
+				<?php echo $row['content_3']; ?>
 			</div>
 			<div class="fourth">
-				
+				<?php echo $row['content_4']; ?>
 			</div>
 			<div class="clear"></div>
 			
