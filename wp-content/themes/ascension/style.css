@@ -41,6 +41,11 @@ a {
   	-o-transition:      all .5s ease-in-out;
 }
 
+img {
+	display: inline-block;
+	max-width: 100%;
+}
+
 .widcon {
 	max-width: 1400px;
 	margin: 0px auto;
