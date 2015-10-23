@@ -20,7 +20,7 @@
 	<div class="row fourths">
 		<div class="widcon">
 			<?php if($row['section_title']) {
-				echo '<h1>'.$row['section_title'].'</h1>';
+				echo '<h1 class="title">'.$row['section_title'].'</h1>';
 			} ?>
 			<div class="fourth">
 				

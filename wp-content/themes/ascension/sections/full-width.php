@@ -20,7 +20,7 @@
 	<div class="row fullwidth" style="<?php echo $background . $fontColor; ?>">
 		<div class="widcon">
 			<?php if($row['section_title']) {
-				echo '<h1>'.$row['section_title'].'</h1>';
+				echo '<h1 class="title">'.$row['section_title'].'</h1>';
 			} ?>
 			<?php echo $row['content_1']; ?>
 			<?php if($row['bottom_content']) {
