@@ -14,7 +14,7 @@ get_header(); ?>
 			endwhile;
 		?>
 
-	</div><!-- #content -->
+	</div>
 
 <?php
 get_footer();
