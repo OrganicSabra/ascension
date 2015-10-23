@@ -4,8 +4,8 @@
 	
 ?>
 
-	<div class="row fullwidth" style="<?php echo $background . $fontColor . $topPad . $botPad; ?>">
-		<div class="widcon">
+	<div class="row fullwidth" style="<?php echo $background . $fontColor; ?>">
+		<div class="widcon" style="<?php echo $topPad . $botPad; ?>">
 			<?php if($row['section_title']) {
 				echo '<h1 class="title" style="'.$titleAlign.'">'.$row['section_title'].'</h1>';
 			} ?>
