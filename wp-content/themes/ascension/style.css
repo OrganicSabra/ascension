@@ -72,20 +72,27 @@ a {
 .site-header .main-navigation ul li {
 	float: left;
 	display: inline-block;
+	padding: 30px 2%;
+	transition:         all .5s ease-in-out;
+  	-webkit-transition: all .5s ease-in-out;
+  	-moz-transition:    all .5s ease-in-out;
+  	-o-transition:      all .5s ease-in-out;
 }
 .site-header .main-navigation ul li a {
 	display: block;
 	color: #fff;
-	padding: 30px 2%;
 	font-size: 15px;
 	font-weight: 400;
 }
 
-.site-header .main-navigation ul li a:hover,
-.site-header .main-navigation ul li.current_page_item a {
-	color: #007cbf;
+.site-header .main-navigation ul li:hover,
+.site-header .main-navigation ul li.current_page_item {
 	background-color: #0b0d0f;
+}
+.site-header .main-navigation ul li:hover a,
+.site-header .main-navigation ul li.current_page_item a {
 	font-weight: 700;
+	color: #007cbf;
 }
 
 /* Shared Page Styles */
