@@ -3,6 +3,10 @@
 	$bgImage = $row['background_image'];
 	$fontColor = $row['font_color'];
 	$background = '';
+	$titleAlign = $row['section_title_alignment'];
+	$topPad = $row['top_padding'];
+	$botPad = $row['bottom_padding'];
+	
 	if($bgColor) {
 		if($bgImage) {
 			$background = 'background: '.$bgColor.' url(\''.$bgImage.'\') no-repeat center center;';
@@ -15,11 +19,17 @@
 	if($fontColor) {
 		$fontColor = 'color: '.$fontColor.';';
 	}
+	
 	if($topPad) {
-		$topPad = 'padding-top: '.$topPad.';';
+		$topPad = 'padding-top: '.$topPad.'px;';
 	}
+	
 	if($botPad) {
-		$botPad = 'padding-bottom: '.$botPad.';';	
+		$botPad = 'padding-bottom: '.$botPad.'px;';	
+	}	
+	
+	if($titleAlign) {
+		$titleAlign = 'text-align: '.$titleAlign.';';
 	}
 ?>
 
