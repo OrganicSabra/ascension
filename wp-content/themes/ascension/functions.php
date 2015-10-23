@@ -65,4 +65,37 @@ function sectionTemplate($sectionType,$row,$theID) {
 	}
 }
 
+function getStyles($row) {
+	$bgColor = $row['background_color'];
+	$bgImage = $row['background_image'];
+	$fontColor = $row['font_color'];
+	$background = '';
+	$titleAlign = $row['section_title_alignment'];
+	
+	if($bgColor) {
+		if($bgImage) {
+			$background = 'background: '.$bgColor.' url(\''.$bgImage.'\') no-repeat center center;';
+		}
+		else {
+			$background = 'background-color: '.$bgColor.';';
+		}
+	}
+	
+	if($fontColor) {
+		$fontColor = 'color: '.$fontColor.';';
+	}
+	
+	if($topPad) {
+		$topPad = 'padding-top: '.$topPad.';';
+	}
+	
+	if($botPad) {
+		$botPad = 'padding-bottom: '.$botPad.';';	
+	}	
+	
+	if($titleAlign) {
+		$titleAlign = 'text-align: '.$titleAlign.';';
+	}
+}
+
 ?>

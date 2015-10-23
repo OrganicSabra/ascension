@@ -1,4 +1,5 @@
-<?php function fourFourths($row,$ID) { 
+<?php function fourFourths($row,$ID) {
+	
 	$bgColor = $row['background_color'];
 	$bgImage = $row['background_image'];
 	$fontColor = $row['font_color'];
