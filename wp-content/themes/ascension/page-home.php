@@ -17,7 +17,7 @@ get_header(); ?>
 				// Start the Loop.
 				while ( have_posts() ) : the_post();
 
-					$rows = get_field('repeater_field_name');
+					$rows = get_field('home_page_section');
 					if($rows)
 					{
 						echo '<div class="section">';
