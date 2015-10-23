@@ -54,6 +54,7 @@ a {
 /* Header*/
 .site-header {
 	border-top: solid 5px #007cbf;
+	border-bottom: solid 3px #007cbf;
 	font-family: 'Montserrat', sans-serif;
 }
 .site-header .logo,
