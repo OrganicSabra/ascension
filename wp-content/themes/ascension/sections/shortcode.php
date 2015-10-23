@@ -2,8 +2,7 @@
 
 	<div class="row shortcode">
 		<?php
-		do_shortcode($row['shortcode']);
-		echo 'Shortcode Section';
+		echo do_shortcode($row['shortcode']);
 		?>	
 	</div>
 
