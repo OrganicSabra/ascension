@@ -154,11 +154,11 @@ h3 {
 	width: 50%;
 	float: left;
 }
-.half:first-of-type {
+.half:nth-of-type(1) {
 	padding: 0px 2% 0px 0px;
 	border-right: solid 1px #fff;
 }
-.half:last-of-type {
+.half:nth-of-type(2) {
 	padding: 0px 0px 0px 2%;
 }
 
