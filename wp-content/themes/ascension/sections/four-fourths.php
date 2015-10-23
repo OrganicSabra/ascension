@@ -1,6 +1,7 @@
 <?php function fourFourths($row,$ID) {
 	$bgColor = $row['background_color'];
 	$bgImage = $row['background_image'];
+	$bgFill = $row['fill_background'];
 	$fontColor = $row['font_color'];
 	$background = '';
 	$topPad = $row['top_padding'];
@@ -8,7 +9,10 @@
 	
 	if($bgColor) {
 		if($bgImage) {
-			$background = 'background: '.$bgColor.' url(\''.$bgImage.'\') no-repeat center center; background-size: 100% 100%;';
+			$background = 'background: '.$bgColor.' url(\''.$bgImage.'\') no-repeat center center;';
+			if($bgFill) {
+				$bgSize = 'background-size: 100% 100%;';
+			}
 		}
 		else {
 			$background = 'background-color: '.$bgColor.';';
