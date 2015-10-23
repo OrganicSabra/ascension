@@ -42,12 +42,11 @@ a {
 }
 
 .widcon {
-	max-width: 1446px;
+	max-width: 1400px;
 	margin: 0px auto;
-}
-.inpad {
 	padding: 0px 4%;
 }
+
 .clear {
 	clear: both;
 }
