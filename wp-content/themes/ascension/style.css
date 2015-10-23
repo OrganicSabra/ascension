@@ -134,6 +134,42 @@ h2.title:before {
 
 /* Shared Page Styles */
 
+.fullwidth {
+	width: 100%;
+}
+
+.half {
+	width: 50%;
+	float: left;
+}
+.half:first-of-type {
+	padding: 0px 2% 0px 0px;
+	border-right: solid 1px #fff;
+}
+.half:last-of-type {
+	padding: 0px 0px 0px 2%;
+}
+
+.onethird {
+	width: 34%;
+	float: left;
+	padding: 0px 2% 0px 0px;
+}
+.twothird {
+	width: 66%;
+	float: left;
+	padding: 0px 0px 0px 2%;
+}
+.fourth {
+	width: 25%;
+	padding: 0px 2%;
+	float: left;
+	border-right: dotted 10px #ececec;
+}
+.fourth:last-of-type {
+	border: 0px;
+}
+
 
 /* Specific Page Styles */
 
