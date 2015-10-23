@@ -275,12 +275,13 @@ img.aligncenter,
 }
 .fourth {
 	width: 25%;
-	padding: 0px 2%;
+	padding: 0px 3%;
 	float: left;
 	background: transparent url('/wp-content/themes/ascension/images/dot-border.png') repeat-y top right;
 }
 .fourth:last-of-type {
-	border: 0px;
+	background: none;
+	padding: 0px 2% 0px 3%;
 }
 
 
