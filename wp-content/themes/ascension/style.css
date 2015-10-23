@@ -49,8 +49,12 @@ img {
 	max-width: 100%;
 }
 
-h1,h2,h3 {
+h1 {
+	color: #fff;
+}
+h2,h3 {
 	color: #007cbf;
+	font-weight: 400;
 }
 h2.title {
 	font-size: 45px;
