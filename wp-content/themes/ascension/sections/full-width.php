@@ -33,7 +33,7 @@
 	
 ?>
 
-	<div class="row fullwidth" style="<?php echo $background . $fontColor; ?>">
+	<div class="row fullwidth" style="<?php echo $background . $bgSize . $fontColor; ?>">
 		<div class="widcon" style="<?php echo $topPad . $botPad; ?>">
 			<?php echo $row['content_1']; ?>
 		</div>

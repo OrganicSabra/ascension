@@ -33,8 +33,8 @@
 	
 ?>
 
-	<div class="row onetwothirds" style="<?php echo $background . $fontColor . $topPad . $botPad; ?>">
-		<div class="widcon">
+	<div class="row onetwothirds" style="<?php echo $background . $bgSize . $fontColor; ?>">
+		<div class="widcon" style="<?php echo $topPad . $botPad; ?>">
 			<?php if($row['top_content']) {
 				echo $row['top_content'];
 			} ?>
