@@ -82,11 +82,11 @@ function getStyles($row) {
 	}
 	
 	if($fontColor) {
-		$fontColor = 'color: '.$fontColor.';';
+		$fontColor = 'color: '.$fontColor.'px;';
 	}
 	
 	if($topPad) {
-		$topPad = 'padding-top: '.$topPad.';';
+		$topPad = 'padding-top: '.$topPad.'px;';
 	}
 	
 	if($botPad) {
