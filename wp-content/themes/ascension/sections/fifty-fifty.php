@@ -9,7 +9,7 @@
 	
 	if($bgColor) {
 		if($bgImage) {
-			$background = 'background: '.$bgColor.' url(\''.$bgImage.'\') no-repeat center center;';
+			$background = 'background: '.$bgColor.' url(\''.$bgImage.'\') no-repeat center center; background-size: 100% 100%;';
 		}
 		else {
 			$background = 'background-color: '.$bgColor.';';
