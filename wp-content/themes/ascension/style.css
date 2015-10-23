@@ -128,6 +128,17 @@ p {
 	clear: both;
 }
 
+.blue-btn-sm {
+	display: inline-block;
+	border: solid 2px #007cbf;
+	background-color: #007cbf;
+	color: #fff;
+	padding: 10px 15px;
+}
+.blue-btn:hover {
+	background-color: #fff;
+	color: #007cbf;
+}
 
 /* Alignment */
 .alignleft {
