@@ -38,19 +38,20 @@
 			<?php if($row['top_content']) {
 				echo $row['top_content'];
 			} ?>
-			<div class="halfrow">
-				<div class="half">
-					<div class="inner">
-						<?php echo $row['content_1']; ?>
+			<div class="halftable">
+				<div class="halfrow">
+					<div class="half">
+						<div class="inner">
+							<?php echo $row['content_1']; ?>
+						</div>
 					</div>
-				</div>
-				<div class="half">
-					<div class="inner">
-						<?php echo $row['content_2']; ?>
+					<div class="half">
+						<div class="inner">
+							<?php echo $row['content_2']; ?>
+						</div>
 					</div>
 				</div>
 			</div>
-			
 			<?php if($row['bottom_content']) {
 				echo '<div class="bottom">'.$row['bottom_content'].'</div>';
 			} ?>
