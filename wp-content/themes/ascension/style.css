@@ -55,6 +55,7 @@ a {
 /* Header*/
 .site-header {
 	border-top: solid 5px #007cbf;
+	font-family: 'Montserrat', sans-serif;
 }
 .site-header .logo,
 .site-header .contact {
@@ -63,7 +64,6 @@ a {
 }
 .site-header .main-navigation {
 	background-color: #191e23;
-	height: 84px;
 }
 .site-header .main-navigation ul {
 	
@@ -74,16 +74,19 @@ a {
 .site-header .main-navigation ul li a {
 	display: block;
 	color: #fff;
-	display: block;
-	padding: 35px 2%;
+	padding: 30px 2%;
+	font-size: 15px;
+	font-weight: 400;
 }
 .site-header .main-navigation ul li a:hover {
 	background-color: #0b0d0f;
 	color: #007cbf;
+	font-weight: 700;
 }
 .site-header .main-navigation ul li.current_page_item a {
 	color: #007cbf;
 	background-color: #0b0d0f;
+	font-weight: 700;
 }
 
 /* Shared Page Styles */
