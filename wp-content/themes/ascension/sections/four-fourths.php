@@ -1,4 +1,4 @@
-<?php function fourFourths() { ?>
+<?php function fourFourths($row,$ID) { ?>
 	
 	<div class="row fourths">
 	<?php

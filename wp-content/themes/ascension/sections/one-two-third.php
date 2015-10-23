@@ -1,4 +1,4 @@
-<?php function oneTwoThird() { ?>
+<?php function oneTwoThird($row,$ID) { ?>
 
 	<div class="row onetwothirds">
 	<?php

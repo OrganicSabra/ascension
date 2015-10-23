@@ -47,21 +47,21 @@ function theme_slug_widgets_init() {
 add_action( 'widgets_init', 'theme_slug_widgets_init' );
 
 
-function sectionTemplate($sectionType,$theID) {
+function sectionTemplate($sectionType,$row,$theID) {
 	if($sectionType == 'shortcode') {
-		showShortcode($theID);
+		showShortcode($row,$theID);
 	}
 	elseif($sectionType == 'full-width') {
-		fullWidth();
+		fullWidth($row,$theID);
 	}
 	elseif($sectionType == 'fifty-fifty') {
-		fiftyFifty($theID);
+		fiftyFifty($row,$theID);
 	}
 	elseif($sectionType == 'one-two-third') {
-		oneTwoThird($theID);
+		oneTwoThird($row,$theID);
 	}
 	elseif($sectionType == 'four-fourths') {
-		fiftyFifty($theID);
+		fiftyFifty($row,$theID);
 	}
 }
 

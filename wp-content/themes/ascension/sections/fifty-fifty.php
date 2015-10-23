@@ -1,4 +1,4 @@
-<?php function fiftyFifty() { ?>
+<?php function fiftyFifty($row,$ID) { ?>
 
 	<div class="row halves">
 	<?php
