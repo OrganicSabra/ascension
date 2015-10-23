@@ -2,12 +2,13 @@
 	$bgColor = $row['background_color'];
 	$bgImage = $row['background_image'];
 	$fontColor = $row['font_color'];
+	$background = '';
 	$topPad = $row['top_padding'];
 	$botPad = $row['bottom_padding'];
-	$background = '';
+	
 	if($bgColor) {
 		if($bgImage) {
-			$background = 'background: '.$bgColor.' url(\''.$bgImage.'\') no-repeat center center;';
+			$background = 'background: '.$bgColor.' url(\''.$bgImage.'\') no-repeat center center; background-size: 100% 100%;';
 		}
 		else {
 			$background = 'background-color: '.$bgColor.';';
@@ -17,12 +18,15 @@
 	if($fontColor) {
 		$fontColor = 'color: '.$fontColor.';';
 	}
+	
 	if($topPad) {
-		$topPad = 'padding-top: '.$topPad.';';
+		$topPad = 'padding-top: '.$topPad.'px;';
 	}
+	
 	if($botPad) {
-		$botPad = 'padding-bottom: '.$botPad.';';	
-	}
+		$botPad = 'padding-bottom: '.$botPad.'px;';	
+	}	
+	
 ?>
 
 	<div class="row onetwothirds" style="<?php echo $background . $fontColor . $topPad . $botPad; ?>">

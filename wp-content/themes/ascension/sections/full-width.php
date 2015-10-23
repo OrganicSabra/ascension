@@ -3,7 +3,6 @@
 	$bgImage = $row['background_image'];
 	$fontColor = $row['font_color'];
 	$background = '';
-	$titleAlign = $row['section_title_alignment'];
 	$topPad = $row['top_padding'];
 	$botPad = $row['bottom_padding'];
 	
@@ -28,9 +27,6 @@
 		$botPad = 'padding-bottom: '.$botPad.'px;';	
 	}	
 	
-	if($titleAlign) {
-		$titleAlign = 'text-align: '.$titleAlign.';';
-	}
 ?>
 
 	<div class="row fullwidth" style="<?php echo $background . $fontColor; ?>">
