@@ -17,6 +17,14 @@
 * {
 	box-sizing: border-box;
 }
+.widcon {
+	max-width: 1024px;
+	margin: 0px auto;
+}
+.clear {
+	clear: both;
+}
+
 .montreg {
 	font-weight: 400;
 	font-family: 'Montserrat', sans-serif;
