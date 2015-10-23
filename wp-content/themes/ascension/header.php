@@ -1,5 +1,8 @@
-<?php /* The Header */ ?>
-<!DOCTYPE html>
+<?php
+/**
+ * The Header for our theme
+ */
+?><!DOCTYPE html>
 <!--[if IE 7]>
 <html class="ie ie7" <?php language_attributes(); ?>>
 <![endif]-->
@@ -23,24 +26,20 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
+	
 	<header id="masthead" class="site-header" role="banner">
-		<div class="header-main">
+		<div class="widcon">
 			<div class="logo">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" title="<?php bloginfo('name'); ?>>
-					<img src="" alt="<?php bloginfo('name'); ?>" />
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/context-logo.png" alt="<?php bloginfo( 'name' ); ?>" />
 				</a>
 			</div>
-			<div class="contact">
-				<!-- Contact Info -->
+			
+			<div class="main-navigation">
+				<?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'menu_class' => 'main-menu', 'menu_id' => 'mainMenu' ) ); ?>
 			</div>
 		</div>
-		<div class="navbar">
-			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu', 'menu_id' => 'primary-menu' ) ); ?>
-			</nav>
-			<div class="search-box">
-				<?php get_search_form(); ?>
-			</div>
-		</div>
+
 	</header><!-- #masthead -->
 
+	<div id="main" class="site-main">

@@ -5,16 +5,18 @@
 
 get_header(); ?>
 
-	<div id="content" class="site-content" role="main">
-		<?php
-			while ( have_posts() ) : the_post();
+		<div id="content" class="site-content" role="main">
 
-				the_content();
-			
-			endwhile;
-		?>
+			<?php
+				// Start the Loop.
+				while ( have_posts() ) : the_post();
 
-	</div>
+					echo get_the_content(); 
+				
+				endwhile;
+			?>
 
+		</div><!-- #content -->
 <?php
+
 get_footer();

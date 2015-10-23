@@ -1,13 +1,16 @@
 /*
- Theme Name:   Ascension
- Description:  Child theme of TwentyFourteen
+ Theme Name:   Ascension Mobile
+ Theme URI:    http://goelastic.com
+ Description:  Child theme of Twentyfourteen
  Author:       Elasticity
  Author URI:   http://goelastic.com
  Template:     twentyfourteen
  Version:      1.0.0
- Text Domain:  ascension
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fourteen-child
 */
-
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
@@ -26,5 +29,4 @@
 .site-header {
 	border-top: solid 5px #007cbf;
 }
-
 
