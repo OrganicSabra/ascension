@@ -71,6 +71,8 @@ function getStyles($row) {
 	$fontColor = $row['font_color'];
 	$background = '';
 	$titleAlign = $row['section_title_alignment'];
+	$topPad = $row['top_padding'];
+	$botPad = $row['bottom_padding'];
 	
 	if($bgColor) {
 		if($bgImage) {
@@ -82,7 +84,7 @@ function getStyles($row) {
 	}
 	
 	if($fontColor) {
-		$fontColor = 'color: '.$fontColor.'px;';
+		$fontColor = 'color: '.$fontColor.';';
 	}
 	
 	if($topPad) {
@@ -90,7 +92,7 @@ function getStyles($row) {
 	}
 	
 	if($botPad) {
-		$botPad = 'padding-bottom: '.$botPad.';';	
+		$botPad = 'padding-bottom: '.$botPad.'px;';	
 	}	
 	
 	if($titleAlign) {
