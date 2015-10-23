@@ -46,4 +46,23 @@ function theme_slug_widgets_init() {
 }
 add_action( 'widgets_init', 'theme_slug_widgets_init' );
 
+
+function sectionTemplate($sectionType,$theID) {
+	if($sectionType == 'shortcode') {
+		showShortcode($theID);
+	}
+	elseif($sectionType == 'full-width') {
+		fullWidth();
+	}
+	elseif($sectionType == 'fifty-fifty') {
+		fiftyFifty($theID);
+	}
+	elseif($sectionType == 'one-two-third') {
+		oneTwoThird($theID);
+	}
+	elseif($sectionType == 'four-fourths') {
+		fiftyFifty($theID);
+	}
+}
+
 ?>
