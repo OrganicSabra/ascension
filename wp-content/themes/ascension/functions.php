@@ -61,42 +61,7 @@ function sectionTemplate($sectionType,$row,$theID) {
 		oneTwoThird($row,$theID);
 	}
 	elseif($sectionType == 'four-fourths') {
-		fiftyFifty($row,$theID);
-	}
-}
-
-function getStyles($row) {
-	$bgColor = $row['background_color'];
-	$bgImage = $row['background_image'];
-	$fontColor = $row['font_color'];
-	$background = '';
-	$titleAlign = $row['section_title_alignment'];
-	$topPad = $row['top_padding'];
-	$botPad = $row['bottom_padding'];
-	
-	if($bgColor) {
-		if($bgImage) {
-			$background = 'background: '.$bgColor.' url(\''.$bgImage.'\') no-repeat center center;';
-		}
-		else {
-			$background = 'background-color: '.$bgColor.';';
-		}
-	}
-	
-	if($fontColor) {
-		$fontColor = 'color: '.$fontColor.';';
-	}
-	
-	if($topPad) {
-		$topPad = 'padding-top: '.$topPad.'px;';
-	}
-	
-	if($botPad) {
-		$botPad = 'padding-bottom: '.$botPad.'px;';	
-	}	
-	
-	if($titleAlign) {
-		$titleAlign = 'text-align: '.$titleAlign.';';
+		fourFourths($row,$theID);
 	}
 }
 
