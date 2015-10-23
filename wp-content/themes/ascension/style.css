@@ -80,11 +80,8 @@ a {
 	font-size: 15px;
 	font-weight: 400;
 }
-.site-header .main-navigation ul li a:hover {
-	background-color: #0b0d0f;
-	color: #007cbf;
-	font-weight: 700;
-}
+
+.site-header .main-navigation ul li a:hover,
 .site-header .main-navigation ul li.current_page_item a {
 	color: #007cbf;
 	background-color: #0b0d0f;
