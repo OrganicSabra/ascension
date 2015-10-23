@@ -31,6 +31,8 @@
 body,html {
 	padding: 0px;
 	margin: 0px;
+	color: #aeaeae;
+	font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -69,7 +71,6 @@ h1.title {
 .site-header {
 	border-top: solid 5px #007cbf;
 	border-bottom: solid 3px #007cbf;
-	font-family: 'Montserrat', sans-serif;
 }
 .site-header .logo,
 .site-header .contact {
