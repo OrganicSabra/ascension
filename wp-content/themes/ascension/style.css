@@ -63,14 +63,18 @@ a {
 }
 .site-header .main-navigation {
 	background-color: #191e23;
+	height: 84px;
 }
 .site-header .main-navigation ul li {
 	float: left;
+	list-style: none;
 }
 .site-header .main-navigation ul li a {
 	padding: 0px 2%;
 	line-height: 84px;
+	height: 84px;
 	color: #fff;
+	display: block;
 }
 .site-header .main-navigation ul li a:hover {
 	background-color: #0b0d0f;
