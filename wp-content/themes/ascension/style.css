@@ -1,0 +1,29 @@
+/*
+ Theme Name:   Ascension
+ Theme URI:	   http://goelastic.com/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Elasticity
+ Author URI:   http://goelastic.com/
+ Template:     ascension
+ Version:      1.0.0
+ Tags:         ascension, custom
+ Text Domain:  twenty-fourteen-child
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+	box-sizing: border-box;
+}
+.montreg {
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+}
+.montbold {
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.site-header {
+	border-top: solid 5px #007cbf;
+}
