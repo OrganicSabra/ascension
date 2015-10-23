@@ -72,6 +72,7 @@ a {
 }
 .site-header .main-navigation ul li {
 	float: left;
+	display: inline-block;
 }
 .site-header .main-navigation ul li a {
 	display: block;
