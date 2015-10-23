@@ -14,23 +14,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-* {
-	box-sizing: border-box;
-}
-
-body,html {
-	padding: 0px;
-	margin: 0px;
-}
-
-.widcon {
-	max-width: 1024px;
-	margin: 0px auto;
-}
-.clear {
-	clear: both;
-}
-
 .montreg {
 	font-weight: 400;
 	font-family: 'Montserrat', sans-serif;
@@ -40,7 +23,68 @@ body,html {
 	font-family: 'Montserrat', sans-serif;
 }
 
+
+* {
+	box-sizing: border-box;
+}
+
+body,html {
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+	transition:         all .5s ease-in-out;
+  	-webkit-transition: all .5s ease-in-out;
+  	-moz-transition:    all .5s ease-in-out;
+  	-o-transition:      all .5s ease-in-out;
+}
+
+.widcon {
+	max-width: 1446px;
+	margin: 0px auto;
+}
+.inpad {
+	padding: 0px 4%;
+}
+.clear {
+	clear: both;
+}
+
+/* Header*/
 .site-header {
 	border-top: solid 5px #007cbf;
 }
+.site-header .logo,
+.site-header .contact {
+	width: 50%;
+	float: left;
+}
+.site-header .main-navigation {
+	background-color: #191e23;
+}
+.site-header .main-navigation ul li {
+	float: left;
+}
+.site-header .main-navigation ul li a {
+	padding: 0px 2%;
+	line-height: 84px;
+	color: #fff;
+}
+.site-header .main-navigation ul li a:hover {
+	background-color: #0b0d0f;
+	color: #007cbf;
+}
+.site-header .main-navigation ul li.current_page_item a {
+	color: #007cbf;
+	background-color: #0b0d0f;
+}
 
+/* Shared Page Styles */
+
+
+/* Specific Page Styles */
+
+
+/* Footer Styles */

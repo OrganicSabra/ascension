@@ -31,15 +31,21 @@
 		<div class="widcon">
 			<div class="logo">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/context-logo.png" alt="<?php bloginfo( 'name' ); ?>" />
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" />
 				</a>
 			</div>
-			
-			<div class="main-navigation">
+			<div class="contact">
+				<!-- Contact Info -->
+				<?php wp_nav_menu( array( 'theme_location' => 'social-menu', 'menu_class' => 'social-menu', 'menu_id' => 'socialMenu' ) ); ?>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="main-navigation">
+			<div class="widcon">
 				<?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'menu_class' => 'main-menu', 'menu_id' => 'mainMenu' ) ); ?>
+				<div class="clear"></div>
 			</div>
 		</div>
-
 	</header><!-- #masthead -->
 
 	<div id="main" class="site-main">
