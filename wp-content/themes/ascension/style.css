@@ -228,9 +228,17 @@ img.aligncenter,
 	width: 100%;
 }
 
+
+.halves .widcon {
+	display: table;
+}
+.halves .widcon .halfrow {
+	display: table-row;
+}
 .half {
 	width: 50%;
-	float: left;
+	display: table-cell;
+	vertical-align: top;
 }
 .half:nth-of-type(1) {
 	padding: 0px 2% 0px 0px;
