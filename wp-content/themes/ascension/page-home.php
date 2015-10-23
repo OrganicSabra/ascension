@@ -25,7 +25,7 @@ get_header(); ?>
 						foreach($rows as $row)
 						{
 							$sectionType = $row['section_type'];
-							sectionTemplate($sectionType,the_ID());
+							sectionTemplate($sectionType,get_the_ID());
 						}
 					
 						echo '</div>';

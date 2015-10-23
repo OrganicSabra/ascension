@@ -47,5 +47,3 @@
 			</div>
 		</div>
 	</header><!-- #masthead -->
-
-	<div id="main" class="site-main">
