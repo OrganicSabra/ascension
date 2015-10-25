@@ -319,21 +319,13 @@ img.aligncenter,
 	float: left;
 	padding: 0px 2% 0px 0px;
 }
-.home .onethird {
-	width: 40%;
-	float: left;
-	padding: 0px 2% 0px 0px;
-}
+
 .twothird {
 	width: 66%;
 	float: left;
 	padding: 0px 0px 0px 2%;
 }
-.home .twothird {
-	width: 60%;
-	float: left;
-	padding: 0px 0px 0px 2%;
-}
+
 
 .fourths .fourtable {
 	display: table;
@@ -355,6 +347,25 @@ img.aligncenter,
 
 
 /* Specific Page Styles */
+.home .onetwotable {
+	display: table;
+	width: 100%;
+}
+.home .onetwotable .onetworow {
+	display: table-row;
+}
+.home .onethird {
+	width: 40%;
+	float: left;
+	padding: 0px 2% 0px 0px;
+	vertical-align: bottom;
+}
+.home .twothird {
+	width: 60%;
+	float: left;
+	padding: 0px 0px 0px 2%;
+	vertical-align: top;
+}
 
 
 /* Footer Styles */
