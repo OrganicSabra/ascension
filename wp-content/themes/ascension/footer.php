@@ -7,9 +7,21 @@
 		
 		
 		
-		<footer id="colophon" class="site-footer" role="contentinfo">
-			<div class="widcon">
-
+		<footer class="site-footer">
+			<div class="pre-footer">
+				<div class="widcon">
+					<div class="contact">
+						<?php wp_nav_menu( array( 'theme_location' => 'social-menu', 'menu_class' => 'social-menu', 'menu_id' => 'socialMenu' ) ); ?>
+						<h4 class="white">314.725.4513</h4>
+						<a href="mailto:info@ascendsionmobile.com">info@ascendsionmobile.com</a>
+					</div>
+					<?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'menu_class' => 'main-menu', 'menu_id' => 'mainMenu' ) ); ?>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="widcon">
+	
+				</div>
 			</div>
 		</footer>
 		

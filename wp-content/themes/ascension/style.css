@@ -96,9 +96,6 @@ h4 {
 	font-weight: 400;
 	margin: 0px;
 }
-h4.white {
-	color: #fff;
-}
 
 h5 {
 	font-size: 17px;
@@ -127,6 +124,13 @@ p {
 
 .clear {
 	clear: both;
+}
+
+.white {
+	color: #fff;
+}
+.blue {
+	color: #007cbfl
 }
 
 .blue-btn-sm {
@@ -376,6 +380,12 @@ img.aligncenter,
 
 /* Footer Styles */
 
+.site-footer .pre-footer { 
+	background-color: #191e23;
+}
+.site-footer .footer {
+	background-color: #0b0e10;
+}
 
 
 
