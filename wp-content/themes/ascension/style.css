@@ -439,6 +439,9 @@ img.aligncenter,
 .site-footer .pre-footer .contact {
 	padding: 0px 0px 20px 0px;
 }
+.site-footer .pre-footer .contact a:hover {
+	color: #6c6e70;	
+}
 .site-footer .pre-footer .contact h4 {
 	padding: 0px;
 }
