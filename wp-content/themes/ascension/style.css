@@ -401,21 +401,6 @@ img.aligncenter,
 
 /* Footer Styles */
 
-.site-footer .pre-footer { 
-	background-color: #191e23;
-	padding: 30px 0px 20px 0px;
-	text-align: center;
-}
-.site-footer .pre-footer .contact {
-	padding: 0px 0px 20px 0px;
-}
-.site-footer .pre-footer .contact h4 {
-	padding: 0px;
-}
-
-.site-footer .footer {
-	background-color: #0b0e10;
-}
 .site-footer ul {
 	list-style: none;
 	padding: 0px;
@@ -435,7 +420,29 @@ img.aligncenter,
 .site-footer ul.main-menu li {
 	height: 50px;
 }
+.site-footer ul.main-menu li a {
+	color: #6c6e70;
+}
 
+
+.site-footer .pre-footer { 
+	background-color: #191e23;
+	padding: 30px 0px 20px 0px;
+	text-align: center;
+}
+.site-footer .pre-footer .contact {
+	padding: 0px 0px 20px 0px;
+}
+.site-footer .pre-footer .contact h4 {
+	padding: 0px;
+}
+
+.site-footer .footer {
+	background-color: #0b0e10;
+}
+.site-footer .footer p {
+	padding: 15px 0px;
+}
 
 
 
