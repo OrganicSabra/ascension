@@ -375,3 +375,24 @@ img.aligncenter,
 
 
 /* Footer Styles */
+
+
+
+
+
+
+
+
+@media screen and (max-width:999px) {
+	.home .onethird {
+		width: 100%;
+		display: block;
+		padding: 0px;
+	}
+	.home .twothird {
+		width: 100%;
+		display: block;
+		padding: 0px;
+	}
+
+}
