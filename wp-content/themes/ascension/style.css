@@ -361,6 +361,7 @@ img.aligncenter,
 	display: table-cell;
 	padding: 0px 2% 0px 0px;
 	vertical-align: bottom;
+	float: none;
 	height: 100%;
 }
 .home .twothird {
@@ -368,6 +369,7 @@ img.aligncenter,
 	display: table-cell;
 	padding: 0px 0px 0px 2%;
 	vertical-align: top;
+	float: none;
 	height: 100%;
 }
 
