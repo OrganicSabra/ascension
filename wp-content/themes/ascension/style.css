@@ -391,12 +391,15 @@ img.aligncenter,
 }
 .site-footer ul {
 	list-style: none;
+	padding: 0px;
+	margin: 0px;
 }
 .site-footer ul li {
 	display: inline;
 }
 .site-footer ul li a {
 	display: inline-block;
+	padding: 0px 2%;
 }
 
 
