@@ -262,6 +262,7 @@ img.aligncenter,
 }
 .site-header .contact ul.social-menu li {
 	padding: 0px 5px;
+	float: left;
 }
 
 .site-header .main-navigation {
