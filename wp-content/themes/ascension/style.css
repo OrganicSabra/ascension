@@ -360,7 +360,6 @@ img.aligncenter,
 	width: 40%;
 	display: table-cell;
 	padding: 0px 2% 0px 0px;
-	vertical-align: bottom;
 	float: none;
 	height: 100%;
 }
@@ -368,7 +367,6 @@ img.aligncenter,
 	width: 60%;
 	display: table-cell;
 	padding: 0px 0px 0px 2%;
-	vertical-align: top;
 	float: none;
 	height: 100%;
 }
