@@ -258,7 +258,7 @@ img.aligncenter,
 	text-align: right;
 }
 .site-header .contact .contact-card {
-	margin: 50px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
     max-height: 60px;
 }
 .site-header .contact ul.social-menu {
@@ -266,6 +266,7 @@ img.aligncenter,
 	display: inline-block;
 	list-style: none;
 	padding: 10px 0px;
+	padding: 0px;
 }
 .site-header .contact ul.social-menu li {
 	padding: 0px 5px;
