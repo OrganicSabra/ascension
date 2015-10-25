@@ -406,6 +406,13 @@ img.aligncenter,
 	padding: 30px 0px 20px 0px;
 	text-align: center;
 }
+.site-footer .pre-footer .contact {
+	padding: 0px 0px 20px 0px;
+}
+.site-footer .pre-footer .contact h4 {
+	padding: 0px;
+}
+
 .site-footer .footer {
 	background-color: #0b0e10;
 }
@@ -424,6 +431,9 @@ img.aligncenter,
 
 .site-footer ul.social-menu {
 	padding: 25px 0px;
+}
+.site-footer ul.main-menu li {
+	height: 50px;
 }
 
 
