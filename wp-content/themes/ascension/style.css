@@ -382,11 +382,21 @@ img.aligncenter,
 
 .site-footer .pre-footer { 
 	background-color: #191e23;
+	padding: 30px 0px 20px 0px;
+	text-align: center;
 }
 .site-footer .footer {
 	background-color: #0b0e10;
 }
-
+.site-footer ul {
+	list-style: none;
+}
+.site-footer ul li {
+	display: inline;
+}
+.site-footer ul li a {
+	display: inline-block;
+}
 
 
 
