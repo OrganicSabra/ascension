@@ -21,6 +21,14 @@
 			$background = 'background-color: '.$bgColor.';';
 		}
 	}
+	else {
+		if($bgImage) {
+			$background = 'background: transparent url(\''.$bgImage.'\') no-repeat top center;';
+			if($bgFill) {
+				$bgSize = 'background-size: 100% 100%;';
+			}
+		}
+	}
 	
 	if($fontColor) {
 		$fontColor = 'color: '.$fontColor.';';
