@@ -426,6 +426,9 @@ img.aligncenter,
 .site-footer ul.main-menu li a {
 	color: #6c6e70;
 }
+.site-footer ul.main-menu li a:hover {
+	color: #007cbf;
+}
 
 
 .site-footer .pre-footer { 
