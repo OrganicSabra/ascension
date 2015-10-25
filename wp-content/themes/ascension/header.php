@@ -35,7 +35,7 @@
 				</a>
 			</div>
 			<div class="contact">
-				<!-- Contact Info -->
+				<img src="/wp-content/themes/ascension/images/contact-card.png" class="contact-card" />
 				<?php wp_nav_menu( array( 'theme_location' => 'social-menu', 'menu_class' => 'social-menu', 'menu_id' => 'socialMenu' ) ); ?>
 			</div>
 			<div class="clear"></div>
