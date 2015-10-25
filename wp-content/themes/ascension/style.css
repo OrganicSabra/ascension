@@ -411,14 +411,17 @@ img.aligncenter,
 }
 .site-footer ul li a {
 	display: inline-block;
-	padding: 0px 5px;
 }
 
 .site-footer ul.social-menu {
 	padding: 25px 0px;
 }
+.site-footer ul.social-menu li {
+	padding: 0px 5px;
+}
 .site-footer ul.main-menu li {
 	height: 50px;
+	padding: 0px 1%;
 }
 .site-footer ul.main-menu li a {
 	color: #6c6e70;
