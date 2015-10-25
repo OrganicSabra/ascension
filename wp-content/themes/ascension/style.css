@@ -253,7 +253,9 @@ img.aligncenter,
 .site-header .logo img {
 	max-height: 150px;
 }
-
+.site-header .contact .contact-card {
+	float: right;
+}
 .site-header .contact ul.social-menu {
 	float: right;
 	display: inline-block;
