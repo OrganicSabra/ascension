@@ -356,13 +356,13 @@ img.aligncenter,
 }
 .home .onethird {
 	width: 40%;
-	float: left;
+	display: table-cell;
 	padding: 0px 2% 0px 0px;
 	vertical-align: bottom;
 }
 .home .twothird {
 	width: 60%;
-	float: left;
+	display: table-cell;
 	padding: 0px 0px 0px 2%;
 	vertical-align: top;
 }
