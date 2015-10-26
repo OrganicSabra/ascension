@@ -70,6 +70,7 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="page-content" style="<?php echo $contentBg; ?>">
+				<div class="widcon">
 			<?php if($sidebar) { ?>
 				<div class="left-content">
 			<?php } ?>
@@ -80,6 +81,7 @@ get_header(); ?>
 					<?php dynamic_sidebar(); ?>
 				</div>
 			<?php } ?>
+				</div>
 			</div> 
 			<?php
 		endwhile;
