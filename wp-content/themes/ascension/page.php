@@ -74,7 +74,7 @@ get_header(); ?>
 				<?php if($sidebar) { ?>
 					<div class="left-content">
 				<?php } ?>
-					<?php echo get_the_content(); ?>
+					<?php the_content(); ?>
 				<?php if($sidebar) { 
 					$sideType = get_field('select_sidebar');
 					echo $sideType;
