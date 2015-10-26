@@ -75,6 +75,39 @@ get_header(); ?>
 					<div class="left-content">
 				<?php } ?>
 					<?php echo get_the_content(); ?>
+					
+					<?php if(get_field('include_icon_list')) {
+					?>
+					<div class="icon-list">
+					<?php
+					$listID = get_field('icon_list_post_id');
+					$rows = get_field('list_row',$listID);
+					if($rows)
+					{
+						foreach($rows as $row)
+						{
+							if($row['last_item']){
+								$class = 'last';
+							}
+							else {
+								$class = '';
+							}
+						?>
+						<div class="list-row <?php echo $class; ?>">
+							<div class="icon">
+								<img src="<?php echo $row['icon']; ?>" />
+							</div>
+							<div class="content">
+								<?php echo $row['row_content']; ?>
+							</div>
+						</div>
+						<?php
+						}
+					}
+					?>
+					</div>
+					<?
+					} ?>
 				<?php if($sidebar) { 
 					$sideType = get_field('select_sidebar');
 					?>
