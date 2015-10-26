@@ -162,7 +162,7 @@ function showIconList( $atts ){
         'postid' => 0,
     ), $atts );
 	
-	return "foo = {$a['postid']}";
+	return "<div class=\"icon-list\"> {$a['postid']}</div>";
 }
 add_shortcode( 'showlist', 'showIconList' );
 ?>
