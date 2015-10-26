@@ -81,7 +81,7 @@ get_header(); ?>
 					?>
 					</div>
 					<div class="right-content">
-						<?php dynamic_sidebar($sideType); ?>
+						<?php dynamic_sidebar('about-us'); ?>
 					</div>
 				<?php } ?>
 					<div class="clear"></div>
