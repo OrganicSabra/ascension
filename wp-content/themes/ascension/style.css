@@ -434,6 +434,7 @@ img.aligncenter,
 	text-align: right;
 	display: table-cell;
 	position: relative;
+	vertical-align: top;
 }
 .page-content .icon-list .icon:before {
   content : "";
@@ -449,6 +450,7 @@ img.aligncenter,
 	padding: 40px 0px 40px 2%;
 	border-left: solid 2px #dadada;
 	display: table-cell;
+	vertical-align: top;
 }
 .page-content .icon-list .content h4 {
 	line-height: 30px;	
