@@ -428,14 +428,14 @@ img.aligncenter,
 }
 .page-content .icon-list .icon {
 	float: left;
-	width: 25%;
+	width: 15%;
 	border-right: solid 2px #dadada;
-	padding: 40px 0px;
+	padding: 40px 2% 40px 0px;
 }
 .page-content .icon-list .content {
 	float: left;
-	width: 75%;
-	padding: 40px 0px;
+	width: 85%;
+	padding: 40px 0px 40px 2%;
 }
 .page-content .icon-list .content p {
 	color: #7f7f7f;
