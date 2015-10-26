@@ -578,6 +578,7 @@ img.aligncenter,
 		display: block;
 		float: none;
 		text-align: center;
+		padding-bottom: 40px;
 	}
 	.onetwothirds {
 		padding-bottom: 100px;
