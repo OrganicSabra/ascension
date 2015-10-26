@@ -376,6 +376,13 @@ img.aligncenter,
 .page-banner {
 	background-size: 100% 100%;
 }
+.page-banner .banner-text {
+	padding: 40% 0px 20% 0px;
+}
+.page-banner .banner-text img {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
 .page-banner h1 {
 	font-weight: 700;
 	font-size: 60px;
