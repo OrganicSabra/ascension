@@ -562,6 +562,7 @@ img.aligncenter,
 	.half {
 		width: 100%;
 		display: block;
+		float: none;
 	}
 	.onethird,
 	.home .onethird {
