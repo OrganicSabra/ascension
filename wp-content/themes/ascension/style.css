@@ -430,6 +430,7 @@ img.aligncenter,
 	float: left;
 	width: 15%;
 	padding: 40px 2% 40px 0px;
+	text-align: right;
 }
 .page-content .icon-list .content {
 	float: left;
