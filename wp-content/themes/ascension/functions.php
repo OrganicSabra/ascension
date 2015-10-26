@@ -156,4 +156,13 @@ function lists() {
 }
 add_action( 'init', 'lists' );
 
+
+function showIconList( $atts ){
+	$a = shortcode_atts( array(
+        'postid' => 0,
+    ), $atts );
+	
+	return "foo = {$a['postid']}";
+}
+add_shortcode( 'showlist', 'showIconList' );
 ?>
