@@ -74,14 +74,13 @@ get_header(); ?>
 				<?php if($sidebar) { ?>
 					<div class="left-content">
 				<?php } ?>
-					<?php the_content(); ?>
+					<?php echo get_the_content(); ?>
 				<?php if($sidebar) { 
 					$sideType = get_field('select_sidebar');
-					echo $sideType;
 					?>
 					</div>
 					<div class="right-content">
-						<?php dynamic_sidebar('about-us'); ?>
+						<?php dynamic_sidebar($sideType); ?>
 					</div>
 				<?php } ?>
 					<div class="clear"></div>

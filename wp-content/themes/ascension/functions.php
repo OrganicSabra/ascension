@@ -155,16 +155,5 @@ function lists() {
   );
 }
 add_action( 'init', 'lists' );
-function lists_tax() {
-	register_taxonomy(
-		'listtype',
-		'lists',
-		array(
-			'label' => __( 'Type' ),
-			'rewrite' => array( 'slug' => 'listtype' ),
-			'hierarchical' => true,
-		)
-	);
-}
-add_action( 'init', 'lists_tax' );
+
 ?>
