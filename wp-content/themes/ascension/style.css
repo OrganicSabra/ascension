@@ -388,6 +388,18 @@ img.aligncenter,
 	font-size: 60px;
 	color: #fff;
 }
+.page-content {
+	padding: 120px 0px;
+}
+.page-content .left-content {
+	float: left;
+	width: 61%;
+	margin-right: 3%;
+}
+.page-content .right-content {
+	float: right;
+	width: 36%;
+}
 
 
 /* Specific Page Styles */
