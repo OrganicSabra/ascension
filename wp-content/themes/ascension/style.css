@@ -556,6 +556,9 @@ img.aligncenter,
 	.halves .halftable .halfrow {
 		display: block;
 	}
+	.half:nth-of-type(1) {
+		border: 0px;
+	}
 	.half {
 		width: 100%;
 		display: block;
