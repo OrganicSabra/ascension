@@ -565,6 +565,9 @@ img.aligncenter,
 		float: none;
 		text-align: center;
 	}
+	.onetwothirds {
+		padding-bottom: 100px;
+	}
 	.onethird,
 	.home .onethird {
 		width: 100%;
