@@ -572,6 +572,12 @@ img.aligncenter,
 	.page-content .right-content {
 		float: none;
 		width: 100%;
+		text-align: center;
 	}
+	.page-content .right-content .widget {
+	    display: inline-block;
+    	width: auto;
+    	margin: 50px auto 50px auto;
+    }
 
 }
