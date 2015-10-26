@@ -393,11 +393,11 @@ img.aligncenter,
 }
 .page-content .left-content {
 	float: left;
-	width: 61%;
+	width: 60%;
 }
 .page-content .right-content {
 	float: right;
-	width: 36%;
+	width: 35%;
 }
 
 .page-content .right-content .widget {
