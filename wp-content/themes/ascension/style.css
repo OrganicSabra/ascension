@@ -552,15 +552,26 @@ img.aligncenter,
 
 
 @media screen and (max-width:999px) {
-	.home .onethird {
+	.half {
+		width: 100%;
+	}
+	.onethird {
 		width: 100%;
 		display: block;
 		padding: 0px;
 	}
-	.home .twothird {
+	.twothird {
 		width: 100%;
 		display: block;
 		padding: 0px;
+	}
+	.page-content .left-content {
+		float: none;
+		width: 100%;
+	}
+	.page-content .right-content {
+		float: none;
+		width: 100%;
 	}
 
 }
