@@ -400,6 +400,11 @@ img.aligncenter,
 	width: 36%;
 }
 
+.page-content .right-content .widget {
+	margin-bottom: 50px;
+	background-color: #efebe9;
+}
+
 
 /* Specific Page Styles */
 .home .onetwotable {
