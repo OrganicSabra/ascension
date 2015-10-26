@@ -43,19 +43,19 @@ get_header(); ?>
 			if($contentBg) {
 				$contentBgPos = get_field('content_background_position');
 				if($contentBgPos) {
-					if($$contentBgPos == 'top-left') {
+					if($contentBgPos == 'top-left') {
 						$bgPos = 'top left';	
 					}
-					elseif($$contentBgPos == 'top-right') {
+					elseif($contentBgPos == 'top-right') {
 						$bgPos = 'top right';	
 					}
-					elseif($$contentBgPos == 'bottom-left') {
+					elseif($contentBgPos == 'bottom-left') {
 						$bgPos = 'bottom left';	
 					}
-					elseif($$contentBgPos == 'bottom-right') {
+					elseif($contentBgPos == 'bottom-right') {
 						$bgPos = 'bottom right';	
 					}
-					elseif($$contentBgPos == 'center-center') {
+					elseif($contentBgPos == 'center-center') {
 						$bgPos = 'center center';	
 					}
 				}
