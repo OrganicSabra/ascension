@@ -157,12 +157,14 @@ function lists() {
 add_action( 'init', 'lists' );
 
 
-function showIconList( $atts ){
+function caption_shortcode( $atts, $content = null ) {
 	$a = shortcode_atts( array(
-        'postid' => 0,
-    ), $atts );
-	
-	return "<div class=\"icon-list\"> {$a['postid']}</div>";
+		'postid' => 0,
+	), $atts );
+
+	$postID = esc_attr($a['postid']);
+
+	return '<div>' . $postID . '</div>';
 }
 add_shortcode( 'showlist', 'showIconList' );
 ?>
