@@ -582,6 +582,12 @@ img.aligncenter,
 		padding: 0px;
 		text-align: center;
 	}
+	.home .twothird ul {
+		list-style: none;
+	}
+	.home .twothird h5 {
+		padding: 0px;
+	}
 	.fourth {
 		width: 100%;
 		display: block;
