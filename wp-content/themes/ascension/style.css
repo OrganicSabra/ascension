@@ -595,5 +595,8 @@ img.aligncenter,
     	width: auto;
     	margin: 50px auto 50px auto;
     }
-
+	.wp-image-87,
+	.wp-image-102 {
+		display: none;
+	}
 }

@@ -59,9 +59,11 @@
 				<div class="onetworow">
 					<div class="onethird" style="<?php echo $oneVertAlign; ?>">
 						<?php echo $row['content_1']; ?>
+						<div class="clear"></div>
 					</div>
 					<div class="twothird" style="<?php echo $twoVertAlign; ?>">
 						<?php echo $row['content_2']; ?>
+						<div class="clear"></div>
 					</div>
 				</div>
 			</div>
