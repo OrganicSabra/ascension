@@ -77,10 +77,11 @@ get_header(); ?>
 					<?php echo get_the_content(); ?>
 				<?php if($sidebar) { 
 					$sideType = get_field('select_sidebar');
+					echo $sideType;
 					?>
 					</div>
 					<div class="right-content">
-						<?php dynamic_sidebar('\''.$sideType.'\''); ?>
+						<?php dynamic_sidebar($sideType); ?>
 					</div>
 				<?php } ?>
 					<div class="clear"></div>
