@@ -601,6 +601,6 @@ img.aligncenter,
 	.wp-image-87,
 	.wp-image-102,
 	.wp-image-127 {
-		display: none;
+		display: none!important;
 	}
 }
