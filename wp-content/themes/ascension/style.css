@@ -437,6 +437,11 @@ img.aligncenter,
 	width: 75%;
 	padding: 40px 0px;
 }
+.page-content .icon-list .content p {
+	color: #7f7f7f;
+	font-size: 15px;
+	padding: 0px;
+}
 
 
 /* Specific Page Styles */
