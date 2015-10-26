@@ -569,6 +569,10 @@ img.aligncenter,
 	.half:nth-of-type(1) .inner {
 		float: none;
 	}
+	.half:nth-of-type(1) .inner p,
+	.half:nth-of-type(1) .inner h4 {
+		text-align: center!important;
+	}
 	.half {
 		width: 100%;
 		display: block;
