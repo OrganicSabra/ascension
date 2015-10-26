@@ -589,6 +589,7 @@ img.aligncenter,
 		display: block;
 		padding: 0px;
 		text-align: center;
+		height: auto;
 	}
 	.twothird,
 	.home .twothird {
@@ -596,6 +597,7 @@ img.aligncenter,
 		display: block;
 		padding: 0px;
 		text-align: center;
+		height: auto;
 	}
 	.home .twothird ul {
 		list-style: none;
