@@ -429,16 +429,16 @@ img.aligncenter,
 .page-content .icon-list .icon {
 	float: left;
 	width: 15%;
-	border-right: solid 2px #dadada;
 	padding: 40px 2% 40px 0px;
 }
 .page-content .icon-list .content {
 	float: left;
 	width: 85%;
 	padding: 40px 0px 40px 2%;
+	border-left: solid 2px #dadada;
 }
 .page-content .icon-list .content h4 {
-	line-height: 30px;
+	line-height: 30px;	
 }
 .page-content .icon-list .content p {
 	color: #7f7f7f;
