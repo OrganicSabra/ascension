@@ -65,4 +65,72 @@ function sectionTemplate($sectionType,$row,$theID) {
 	}
 }
 
+
+// Custom Post Type
+function issues() {
+  register_post_type( 'issues',
+    array(
+      'labels' => array(
+        'name' => __( 'Issues' ),
+        'singular_name' => __( 'Issues' )
+      ),
+      'supports'      => array(
+				'title',
+				'editor',
+				'thumbnail',
+				'excerpt',
+				'custom-fields',
+				'page-attributes',
+			),
+      'public' => true,
+      'has_archive' => true,
+      'exclude_from_search' => false, 
+    )
+  );
+}
+add_action( 'init', 'issues' );
+function staff() {
+  register_post_type( 'staff',
+    array(
+      'labels' => array(
+        'name' => __( 'Our Staff' ),
+        'singular_name' => __( 'Staff' )
+      ),
+      'supports'      => array(
+				'title',
+				'editor',
+				'thumbnail',
+				'excerpt',
+				'custom-fields',
+				'page-attributes',
+			),
+      'public' => true,
+      'has_archive' => true,
+      'exclude_from_search' => false, 
+    )
+  );
+}
+add_action( 'init', 'staff' );
+function work() {
+  register_post_type( 'work',
+    array(
+      'labels' => array(
+        'name' => __( 'Our Work' ),
+        'singular_name' => __( 'Work' )
+      ),
+      'supports'      => array(
+				'title',
+				'editor',
+				'thumbnail',
+				'excerpt',
+				'custom-fields',
+				'page-attributes',
+			),
+      'public' => true,
+      'has_archive' => true,
+      'exclude_from_search' => false, 
+    )
+  );
+}
+add_action( 'init', 'issues' );
 ?>
