@@ -373,6 +373,16 @@ img.aligncenter,
 	padding: 30px 0px 15px 0px;
 }
 
+.page-banner {
+	background-size: 100% 100%;
+}
+.page-banner h1 {
+	font-weight: 700;
+	font-size: 60px;
+	color: #fff;
+}
+
+
 /* Specific Page Styles */
 .home .onetwotable {
 	display: table;
