@@ -71,18 +71,19 @@ get_header(); ?>
 			</div>
 			<div class="page-content" style="<?php echo $contentBg; ?>">
 				<div class="widcon">
-			<?php if($sidebar) { ?>
-				<div class="left-content">
-			<?php } ?>
-				<?php echo get_the_content(); ?>
-			<?php if($sidebar) { 
-				$sideType = get_field('select_sidebar');
-				?>
-				</div>
-				<div class="right-content">
-					<?php dynamic_sidebar($sideType); ?>
-				</div>
-			<?php } ?>
+				<?php if($sidebar) { ?>
+					<div class="left-content">
+				<?php } ?>
+					<?php echo get_the_content(); ?>
+				<?php if($sidebar) { 
+					$sideType = get_field('select_sidebar');
+					?>
+					</div>
+					<div class="right-content">
+						<?php dynamic_sidebar($sideType); ?>
+					</div>
+				<?php } ?>
+					<div class="clear"></div>
 				</div>
 			</div> 
 			<?php
