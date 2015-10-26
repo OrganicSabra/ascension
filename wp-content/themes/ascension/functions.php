@@ -132,5 +132,47 @@ function work() {
     )
   );
 }
-add_action( 'init', 'issues' );
+add_action( 'init', 'work' );
+
+function lists() {
+	register_post_type(
+		'lists',
+		array(
+			'labels'        => array(
+				'name'               => __('Icon Lists', 'mosoy-2015'),
+				'singular_name'      => __('Icon List', 'mosoy-2015'),
+				'menu_name'          => __('Icon Lists', 'mosoy-2015'),
+				'name_admin_bar'     => __('Icon List', 'mosoy-2015'),
+				'all_items'          => __('All Icon Lists', 'mosoy-2015'),
+				'add_new'            => _x('Add New Icon List', 'board', 'mosoy-2015'),
+				'add_new_item'       => __('Add New Icon List', 'mosoy-2015'),
+				'edit_item'          => __('Edit Icon List', 'mosoy-2015'),
+				'new_item'           => __('New Icon List', 'mosoy-2015'),
+				'view_item'          => __('View Icon List', 'mosoy-2015'),
+				'search_items'       => __('Search Icon Lists', 'mosoy-2015'),
+				'not_found'          => __('No Icon Lists Found.', 'mosoy-2015'),
+				'not_found_in_trash' => __('No Icon Lists Found in Trash.', 'mosoy-2015'),
+				'parent_item_colon'  => __('Parent Icon Lists:', 'mosoy-2015'),
+			),
+			'public'        => true,
+			'menu_position' => 15,
+			'supports'      => array(
+				'title',
+				'editor',
+				'thumbnail',
+				'excerpt',
+				'custom-fields',
+				'page-attributes',
+			),
+			'taxonomies'    => array(
+				'list-type',
+			),
+			'has_archive'   => true,
+			'rewrite'       => array(
+				'slug' => 'lists',
+			),
+		)
+	);
+}
+add_action( 'init', 'lists' );
 ?>
