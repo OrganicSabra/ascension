@@ -563,18 +563,21 @@ img.aligncenter,
 		width: 100%;
 		display: block;
 		float: none;
+		text-align: center;
 	}
 	.onethird,
 	.home .onethird {
 		width: 100%;
 		display: block;
 		padding: 0px;
+		text-align: center;
 	}
 	.twothird,
 	.home .twothird {
 		width: 100%;
 		display: block;
 		padding: 0px;
+		text-align: center;
 	}
 	.fourth {
 		width: 100%;
