@@ -391,6 +391,12 @@ img.aligncenter,
 .page-content {
 	padding: 120px 0px;
 }
+.page-content p,
+.page-content ul,
+.page-content ol{
+	color: #4a4a4a;
+	line-height: 35px;
+}
 .page-content .left-content {
 	float: left;
 	width: 60%;
@@ -402,7 +408,7 @@ img.aligncenter,
 
 .page-content .right-content .widget {
 	margin-bottom: 50px;
-	background-color: #efebe9;
+	background-color: #f5f3f2;
 }
 
 
