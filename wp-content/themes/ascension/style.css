@@ -421,22 +421,24 @@ img.aligncenter,
 .page-content .icon-list {
 	width: 100%;
 	max-width: 600px;
-	float: right;	
+	float: right;
+	display: table;	
 }
 .page-content .icon-list .list-row {
 	width: 100%;
+	display: table-row;
 }
 .page-content .icon-list .icon {
-	float: left;
 	width: 15%;
 	padding: 40px 2% 40px 0px;
 	text-align: right;
+	display: table-cell;
 }
 .page-content .icon-list .content {
-	float: left;
 	width: 85%;
 	padding: 40px 0px 40px 2%;
 	border-left: solid 2px #dadada;
+	display: table-cell;
 }
 .page-content .icon-list .content h4 {
 	line-height: 30px;	
