@@ -23,20 +23,20 @@ add_action( 'init', 'register_my_menus' );
 function theme_slug_widgets_init() {
 	
 	register_sidebar( array(
-        'name' => __( 'Pre Footer 1', 'context' ),
-        'id'            => 'pre-footer-1',
+        'name' => __( 'Page Sidebar', 'twentyfourteen' ),
+        'id'            => 'page-sidebar',
 		'description'   => '',
-        'class'         => 'pre-footer pre-footer-1',
+        'class'         => 'page-side',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<h2 class="title">',
 		'after_title'   => '</h2>' 
     ) );
 	register_sidebar( array(
-        'name' => __( 'Pre Footer 2', 'context' ),
-        'id'            => 'pre-footer-2',
+        'name' => __( 'About Us', 'twentyfourteen' ),
+        'id'            => 'about-us',
 		'description'   => '',
-        'class'         => 'pre-footer pre-footer-2',
+        'class'         => 'about-us-side page-side',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<h2 class="title">',
