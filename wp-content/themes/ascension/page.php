@@ -10,6 +10,8 @@ get_header(); ?>
 		while ( have_posts() ) : the_post();
 			$bgColor = get_field('banner_background_color');
 			$bgImage = get_field('page_banner');
+			$bannerTopPad = get_field('banner_top_padding');
+			$bannerBotPad = get_field('banner_bottom_padding');
 			$sidebar = get_field('include_sidebar');
 			$contentBg = get_field('content_background');
 			if($bgColor) {
@@ -31,6 +33,13 @@ get_header(); ?>
 					}
 				}
 			}
+			if($bannerTopPad) {
+				$bannerTopPad = 'padding-top: '.$bannerTopPad.'px;';
+			}
+			
+			if($bannerBotPad) {
+				$bannerBotPad = 'padding-bottom: '.$bannerBotPad.'px;';	
+			}	
 			if($contentBg) {
 				$contentBgPos = get_field('content_background_position');
 				if($contentBgPos) {
@@ -55,7 +64,7 @@ get_header(); ?>
 			?>
 			<div class="page-banner" style="<?php echo $background; ?>">
 				<div class="widcon">
-					<div class="banner-text">
+					<div class="banner-text" style="<?php echo $bannerTopPad . $bannerBotPad; ?>">
 						<?php echo get_field('banner_text'); ?>
 					</div>
 				</div>
