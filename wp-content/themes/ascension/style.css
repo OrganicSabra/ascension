@@ -418,7 +418,27 @@ img.aligncenter,
 	background-color: #f5f3f2;
 }
 
-.page-content .list-
+.page-content .icon-list {
+	width: 100%;
+	max-width: 600px;
+	float: right;	
+}
+.page-content .icon-list .list-row {
+	width: 100%;
+}
+.page-content .icon-list .icon {
+	float: left;
+	width: 25%;
+	border-right: solid 2px #dadada;
+	padding: 40px 0px;
+}
+.page-content .icon-list .content {
+	float: left;
+	width: 75%;
+	padding: 40px 0px;
+}
+
+
 /* Specific Page Styles */
 .home .onetwotable {
 	display: table;
