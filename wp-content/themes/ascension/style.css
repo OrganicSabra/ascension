@@ -552,8 +552,13 @@ img.aligncenter,
 
 
 @media screen and (max-width:999px) {
+	.halves .halftable,
+	.halves .halftable .halfrow {
+		display: block;
+	}
 	.half {
 		width: 100%;
+		display: block;
 	}
 	.onethird,
 	.home .onethird {
