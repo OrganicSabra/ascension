@@ -167,4 +167,6 @@ function caption_shortcode( $atts, $content = null ) {
 	return '<div>' . $postID . '</div>';
 }
 add_shortcode( 'showlist', 'showIconList' );
+add_filter('showlist', 'do_shortcode');
+
 ?>
