@@ -558,6 +558,16 @@ img.aligncenter,
 	}
 	.half:nth-of-type(1) {
 		border: 0px;
+		padding: 0px;
+	}
+	.half:nth-of-type(2) {
+		padding: 0px;
+	}
+	.half .inner {
+		max-width: 100%;
+	}
+	.half:nth-of-type(1) .inner {
+		float: none;
 	}
 	.half {
 		width: 100%;
