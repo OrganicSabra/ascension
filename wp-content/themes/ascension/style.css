@@ -555,12 +555,14 @@ img.aligncenter,
 	.half {
 		width: 100%;
 	}
-	.onethird {
+	.onethird,
+	.home .onethird {
 		width: 100%;
 		display: block;
 		padding: 0px;
 	}
-	.twothird {
+	.twothird,
+	.home .twothird {
 		width: 100%;
 		display: block;
 		padding: 0px;
