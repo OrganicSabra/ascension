@@ -374,7 +374,7 @@ img.aligncenter,
 }
 
 .page-banner {
-	background-size: 100% 100%;
+	background-size: auto 100%!important;
 }
 .page-banner .banner-text {
 	padding: 150px 0px 90px 0px;
