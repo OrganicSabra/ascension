@@ -567,7 +567,7 @@ img.aligncenter,
 @media screen and (max-width:999px) {
 	.site-header .logo,
 	.site-header .contact {
-		padding: 30px 0px;
+		padding: 10px 0px;
 		width: 100%;
 		float: none;
 		text-align: center;
