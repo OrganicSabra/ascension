@@ -572,6 +572,14 @@ img.aligncenter,
 		float: none;
 		text-align: center;
 	}
+	.site-header .contact {
+		text-align: center;
+	}
+	
+	.site-header .contact ul.social-menu {
+		float: none;
+	}
+	
 	.main-menu {
 		display: none;
 	}
