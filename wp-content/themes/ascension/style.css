@@ -572,6 +572,29 @@ img.aligncenter,
 		display: block;
 		cursor: pointer;
 	}
+		
+	
+	.site-header .main-navigation ul {
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+	}
+	.site-header .main-navigation ul li {
+		float: left;
+		display: block;
+		width: 100%;
+		padding: 10px 2%;
+		transition:         all .5s ease-in-out;
+	  	-webkit-transition: all .5s ease-in-out;
+	  	-moz-transition:    all .5s ease-in-out;
+	  	-o-transition:      all .5s ease-in-out;
+	}
+	.site-header .main-navigation ul li a {
+		display: block;
+		color: #fff;
+		font-size: 14px;
+		font-weight: 400;
+	}
 	
 	
 	.halves .halftable,
