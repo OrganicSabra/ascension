@@ -281,9 +281,9 @@ img.aligncenter,
 .mobile-btn {
 	width: 40px;
 	float: right;
+	display: none;
 }
 .mobile-btn .row {
-	display: none;
 	width: 100%;
 	height: 5px;
 	margin: 5px 0px;
