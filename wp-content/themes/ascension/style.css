@@ -581,9 +581,10 @@ img.aligncenter,
 		padding: 0px;
 		margin: 0px;
 		position: absolute;
-		top: 75px;
+		top: 78px;
 		right: 0px;
 		z-index: 2147483600;
+		background-color: #191e23;
 	}
 	.site-header .main-navigation ul li {
 		float: left;
@@ -594,6 +595,7 @@ img.aligncenter,
 	  	-webkit-transition: all .5s ease-in-out;
 	  	-moz-transition:    all .5s ease-in-out;
 	  	-o-transition:      all .5s ease-in-out;
+	  	text-align: right;
 	}
 	.site-header .main-navigation ul li a {
 		display: block;
