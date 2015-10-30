@@ -567,6 +567,9 @@ img.aligncenter,
 	.main-menu {
 		display: none;
 	}
+	.menu-btn {
+		display: block;
+	}
 	
 	.halves .halftable,
 	.halves .halftable .halfrow {
