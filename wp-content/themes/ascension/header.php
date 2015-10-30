@@ -22,7 +22,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
-	<script scr="/wp-content/themes/ascension/js/script.js" />
+	<script scr="/wp-content/themes/ascension/js/script.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
