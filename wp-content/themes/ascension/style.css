@@ -565,6 +565,13 @@ img.aligncenter,
 
 
 @media screen and (max-width:999px) {
+	.site-header .logo,
+	.site-header .contact {
+		padding: 30px 0px;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
 	.main-menu {
 		display: none;
 	}
@@ -578,7 +585,7 @@ img.aligncenter,
 	}
 	.site-header .main-navigation ul {
 		list-style: none;
-		padding: 10px 0px;
+		padding: 0px;
 		margin: 0px;
 		position: absolute;
 		top: 78px;
@@ -590,7 +597,7 @@ img.aligncenter,
 		float: left;
 		display: block;
 		width: 100%;
-		padding: 10px 5%;
+		padding: 15px 5%;
 		transition:         all .5s ease-in-out;
 	  	-webkit-transition: all .5s ease-in-out;
 	  	-moz-transition:    all .5s ease-in-out;
