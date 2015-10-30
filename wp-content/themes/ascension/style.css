@@ -281,6 +281,7 @@ img.aligncenter,
 .mobile-btn {
 	width: 40px;
 	float: right;
+	margin: 20px 2%;
 	display: none;
 }
 .mobile-btn .row {
@@ -571,6 +572,7 @@ img.aligncenter,
 		display: block;
 		cursor: pointer;
 	}
+	
 	
 	.halves .halftable,
 	.halves .halftable .halfrow {
