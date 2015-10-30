@@ -619,6 +619,12 @@ img.aligncenter,
 		font-weight: 400;
 	}
 	
+	h1 {
+		font-size: 40px;
+	}
+	h2 {
+		font-size: 35px;
+	}
 	
 	.halves .halftable,
 	.halves .halftable .halfrow {
