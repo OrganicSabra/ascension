@@ -578,7 +578,7 @@ img.aligncenter,
 	}
 	.site-header .main-navigation ul {
 		list-style: none;
-		padding: 0px;
+		padding: 10px 0px;
 		margin: 0px;
 		position: absolute;
 		top: 78px;
