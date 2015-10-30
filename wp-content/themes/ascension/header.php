@@ -43,6 +43,11 @@
 		</div>
 		<div class="main-navigation">
 			<div class="widcon">
+				<div class="mobile-btn">
+					<div class="row"></div>
+					<div class="row"></div>
+					<div class="row"></div>
+				</div>
 				<?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'menu_class' => 'main-menu', 'menu_id' => 'mainMenu' ) ); ?>
 				<div class="clear"></div>
 			</div>

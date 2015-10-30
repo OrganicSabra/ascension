@@ -278,6 +278,18 @@ img.aligncenter,
 	float: left;
 }
 
+.mobile-btn {
+	width: 40px;
+	float: right;
+}
+.mobile-btn .row {
+	display: none;
+	width: 100%;
+	height: 5px;
+	margin: 5px 0px;
+	background-color: #fff;
+}
+
 .site-header .main-navigation {
 	background-color: #191e23;
 }
