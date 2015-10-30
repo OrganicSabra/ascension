@@ -2,7 +2,7 @@ jQuery(function( $ ) {
 	
 	// Menu Animations
 	$('.mobile-btn').click(function() {
-		$('nav').slideToggle();
+		$('.main-menu').slideToggle();
 	});
 	
 	// Modal Functionality
