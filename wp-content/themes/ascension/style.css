@@ -573,11 +573,16 @@ img.aligncenter,
 		cursor: pointer;
 	}
 		
-	
+	.site-header .main-navigation  {
+		position: relative;
+	}
 	.site-header .main-navigation ul {
 		list-style: none;
 		padding: 0px;
 		margin: 0px;
+		position: absolute;
+		top: 75px;
+		right: 0px;
 	}
 	.site-header .main-navigation ul li {
 		float: left;
