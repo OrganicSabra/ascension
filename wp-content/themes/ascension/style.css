@@ -583,6 +583,7 @@ img.aligncenter,
 		position: absolute;
 		top: 75px;
 		right: 0px;
+		z-index: 2147483600;
 	}
 	.site-header .main-navigation ul li {
 		float: left;
