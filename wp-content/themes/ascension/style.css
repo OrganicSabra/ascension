@@ -552,6 +552,10 @@ img.aligncenter,
 
 
 @media screen and (max-width:999px) {
+	.main-menu {
+		display: none;
+	}
+	
 	.halves .halftable,
 	.halves .halftable .halfrow {
 		display: block;
