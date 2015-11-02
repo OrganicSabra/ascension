@@ -375,7 +375,7 @@ class carousel_widget extends WP_Widget {
 			query_posts( $carouselargs );
 			while ( have_posts() ) : the_post();
 			    echo '<li>';
-			    the_title();
+			    echo get_the_content();
 			    echo '</li>';
 			endwhile;
 			wp_reset_query();
