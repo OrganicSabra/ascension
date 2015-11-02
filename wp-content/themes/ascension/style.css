@@ -460,13 +460,14 @@ img.aligncenter,
 }
 .page-content .right-content .blue-title-widget .content {
 	margin: 40px 0px;
+	padding: 0px 4%;
+	font-family: 'Open Sans', sans-serif;
 }
 .page-content .right-content .blue-title-widget .content p {
 	font-size: 13px;
 	font-style: italic;
 	color: #464646;
 	line-height: 24px;
-	font-family: 'Open Sans', sans-serif;
 }
 .page-content .right-content .blue-title-widget .content .cta {
 	position: relative;
