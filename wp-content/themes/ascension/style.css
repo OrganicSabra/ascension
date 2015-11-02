@@ -476,7 +476,7 @@ img.aligncenter,
 .page-content .right-content .blue-title-widget .content .cta img {
 	position: absolute;
 	left: 0px;
-	bottom: -13px;
+	top: -13px;
 	width: 35%;
 }
 .page-content .right-content .blue-title-widget.hasImage {
