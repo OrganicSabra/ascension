@@ -366,7 +366,7 @@ class carousel_widget extends WP_Widget {
 		if ( ! empty( $title ) )
 		echo '<div class="blue-banner"><h4>' . $title . '</h4></div>';
 
-		echo '<ul>';
+		echo '<ul class="bxslider">';
 		
 		if(!empty($posttype)) {
 			$carouselargs = array(

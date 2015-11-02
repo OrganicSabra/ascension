@@ -5,5 +5,7 @@ jQuery(function( $ ) {
 		$('.main-menu').slideToggle();
 	});
 	
-	
+	$(document).ready(function(){
+		$('.bxslider').bxSlider();
+	});
 });
