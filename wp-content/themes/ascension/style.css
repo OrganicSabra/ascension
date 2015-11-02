@@ -13,6 +13,7 @@
 */
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
 
 .montreg {
 	font-weight: 400;
@@ -454,6 +455,19 @@ img.aligncenter,
 	bottom: 0px;
 	right: 0px;
 	width: 34.6%;
+}
+.page-content .right-content .blue-title-widget .content p {
+	font-size: 13px;
+	font-style: italic;
+	color: #464646;
+	font-family: 'Open Sans', sans-serif;
+}
+.page-content .right-content .blue-title-widget .content .cta {
+	position: relative;
+}
+.page-content .right-content .blue-title-widget .content .cta a {
+	color: #fff;
+	text-transform: uppercase;
 }
 
 .page-content .icon-list {

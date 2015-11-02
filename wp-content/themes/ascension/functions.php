@@ -206,11 +206,15 @@ class wpb_widget extends WP_Widget {
 		if ( ! empty( $desc ) )
 		echo '<p>' . $desc . '</p>';
 		
+		echo '<div class="cta">';
+		
 		if ( ! empty( $button ) )
 		echo '<a href="'.$link.'" title="'.$title.'">' . $button . '</a>';
 		
 		if ( ! empty( $ctaimg ) )
-		echo '<p>' . $ctaimg . '</p>';
+		echo '<img src="' . $ctaimg . '" alt="'.$title.'" />';
+		
+		echo '</div>';
 		
 		if ( ! empty( $image ) ) 
 			echo '</div>';
