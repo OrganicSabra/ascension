@@ -474,7 +474,6 @@ img.aligncenter,
 }
 .page-content .right-content .blue-title-widget .content .cta {
 	position: relative;
-	padding: 0px 4%;
 }
 .page-content .right-content .blue-title-widget .content .cta a {
 	color: #fff;
@@ -492,8 +491,8 @@ img.aligncenter,
 }
 .page-content .right-content .blue-title-widget .content .cta img {
 	position: absolute;
-	left: -13px;
-	bottom: 0px;
+	left: 0px;
+	bottom: -13px;
 	width: 35%;
 }
 
