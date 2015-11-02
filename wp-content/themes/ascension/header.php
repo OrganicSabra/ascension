@@ -22,7 +22,13 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+	
 	<script src="/wp-content/themes/ascension/js/script.js"></script>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="/wp-content/themes/ascension/bxslider/jquery.bxslider.min.js"></script>
+	
+	<link href="/wp-content/themes/ascension/bxslider/jquery.bxslider.css" rel="stylesheet" />
 </head>
 
 <body <?php body_class(); ?>>
