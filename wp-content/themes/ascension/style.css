@@ -441,8 +441,12 @@ img.aligncenter,
 .page-content .right-content .blue-title-widget h4 {
 	color: #fff;
 	font-weight: 700;
+	padding: 0px;
+	margin: 0px;
 }
-
+.page-content .right-content .blue-title-widget .hasImage h4 {
+	width: 66%;
+}
 
 .page-content .icon-list {
 	width: 100%;
