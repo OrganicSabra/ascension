@@ -439,6 +439,7 @@ img.aligncenter,
 .page-content .right-content .blue-title-widget .blue-banner {
 	background-color: #007cbf;
 	padding: 10px 4%;
+	margin: 25px 0px 0px 0px;
 }
 .page-content .right-content .blue-title-widget h4 {
 	color: #fff;
@@ -457,10 +458,14 @@ img.aligncenter,
 	max-width: 34.6%;
 	max-height: 100%;
 }
+.page-content .right-content .blue-title-widget .content {
+	margin: 40px 0px;
+}
 .page-content .right-content .blue-title-widget .content p {
 	font-size: 13px;
 	font-style: italic;
 	color: #464646;
+	line-height: 24px;
 	font-family: 'Open Sans', sans-serif;
 }
 .page-content .right-content .blue-title-widget .content .cta {
@@ -469,6 +474,10 @@ img.aligncenter,
 .page-content .right-content .blue-title-widget .content .cta a {
 	color: #fff;
 	text-transform: uppercase;
+}
+
+.page-content .right-content .blue-title-widget.hasImage .content {
+	max-width: 34.6%;
 }
 
 .page-content .icon-list {
