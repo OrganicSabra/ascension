@@ -454,7 +454,8 @@ img.aligncenter,
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
-	width: 34.6%;
+	max-width: 34.6%;
+	max-height: 100%;
 }
 .page-content .right-content .blue-title-widget .content p {
 	font-size: 13px;
