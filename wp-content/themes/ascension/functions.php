@@ -89,6 +89,7 @@ function issues() {
   );
 }
 add_action( 'init', 'issues' );
+
 function staff() {
   register_post_type( 'staff',
     array(
@@ -111,6 +112,7 @@ function staff() {
   );
 }
 add_action( 'init', 'staff' );
+
 function work() {
   register_post_type( 'work',
     array(
@@ -133,6 +135,7 @@ function work() {
   );
 }
 add_action( 'init', 'work' );
+
 function lists() {
   register_post_type( 'lists',
     array(
@@ -156,6 +159,28 @@ function lists() {
 }
 add_action( 'init', 'lists' );
 
+function testimonials() {
+  register_post_type( 'testimonials',
+    array(
+      'labels' => array(
+        'name' => __( 'Testimonials' ),
+        'singular_name' => __( 'Testimonial' )
+      ),
+      'supports'      => array(
+				'title',
+				'editor',
+				'thumbnail',
+				'excerpt',
+				'custom-fields',
+				'page-attributes',
+			),
+      'public' => true,
+      'has_archive' => true,
+      'exclude_from_search' => false, 
+    )
+  );
+}
+add_action( 'init', 'testimonials' );
 
 function caption_shortcode( $atts, $content = null ) {
 	$a = shortcode_atts( array(
