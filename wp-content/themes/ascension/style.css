@@ -431,13 +431,11 @@ img.aligncenter,
 	margin-bottom: 50px;
 }
 
+/* Custom Widget Styles - Blue Title Widget */
 .page-content .right-content .blue-title-widget {
 	width: 100%;
 	background-color: #f5f3f2;
 	position: relative;
-}
-.page-content .right-content .blue-title-widget.hasImage {
-	padding: 25px 0px;
 }
 .page-content .right-content .blue-title-widget .blue-banner {
 	background-color: #007cbf;
@@ -449,16 +447,6 @@ img.aligncenter,
 	padding: 0px;
 	margin: 0px;
 	font-size: 20px;
-}
-.page-content .right-content .blue-title-widget.hasImage h4 {
-	width: 66%;
-}
-.page-content .right-content .blue-title-widget.hasImage .absimg {
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	max-width: 37%;
-	max-height: 100%;
 }
 .page-content .right-content .blue-title-widget .content {
 	margin: 30px 0px 0px 0px;
@@ -482,10 +470,6 @@ img.aligncenter,
 	padding: 10px 20px;
 	font-size: 12px;
 }
-
-.page-content .right-content .blue-title-widget.hasImage .content {
-	width: 66%;
-}
 .page-content .right-content .blue-title-widget .content .cta a {
 	margin-left: 37%;
 }
@@ -495,6 +479,25 @@ img.aligncenter,
 	bottom: -13px;
 	width: 35%;
 }
+.page-content .right-content .blue-title-widget.hasImage {
+	padding: 25px 0px;
+}
+.page-content .right-content .blue-title-widget.hasImage h4 {
+	width: 66%;
+}
+.page-content .right-content .blue-title-widget.hasImage .absimg {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	max-width: 37%;
+	max-height: 100%;
+}
+.page-content .right-content .blue-title-widget.hasImage .content {
+	width: 66%;
+}
+
+/* End Custom Widget Styles - Blue Title Widget */
+
 
 .page-content .icon-list {
 	width: 100%;
