@@ -815,3 +815,9 @@ img.aligncenter,
 		display: none!important;
 	}
 }
+
+@media screen and (max-width:549px) {
+	.page-content .right-content .carousel-widget .content {
+		background-size: 100% auto;
+	}
+}
