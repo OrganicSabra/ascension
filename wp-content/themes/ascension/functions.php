@@ -187,7 +187,7 @@ class wpb_widget extends WP_Widget {
 		$image = apply_filters( 'widget_description', $instance['image'] );
 		$button = apply_filters( 'widget_description', $instance['button'] );
 		$link = apply_filters( 'widget_description', $instance['link'] );
-		$ctaImg = apply_filters( 'widget_description', $instance['ctaimg'] );
+		$ctaimg = apply_filters( 'widget_description', $instance['ctaimg'] );
 		
 		if ( ! empty( $image ) ) 
 			$hasImageClass = ' hasImage';
