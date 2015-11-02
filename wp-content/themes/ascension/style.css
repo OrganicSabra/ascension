@@ -428,8 +428,21 @@ img.aligncenter,
 
 .page-content .right-content .widget {
 	margin-bottom: 50px;
+}
+
+.page-content .right-content .blue-title-widget {
+	width: 100%;
 	background-color: #f5f3f2;
 }
+.page-content .right-content .blue-title-widget .blue-banner {
+	background-color: #007cbf;
+	padding: 10px 4%;
+}
+.page-content .right-content .blue-title-widget h4 {
+	color: #fff;
+	font-weight: 700;
+}
+
 
 .page-content .icon-list {
 	width: 100%;

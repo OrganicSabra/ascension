@@ -189,13 +189,16 @@ class wpb_widget extends WP_Widget {
 		$link = apply_filters( 'widget_description', $instance['link'] );
 		$ctaImg = apply_filters( 'widget_description', $instance['ctaimg'] );
 		
+		if ( ! empty( $image ) ) 
+			$bannerClass = ' hasImage';
+		
 		// before and after widget arguments are defined by themes
 		echo $args['before_widget'];
 		
 		echo '<div class="blue-title-widget">';
 		
 		if ( ! empty( $title ) )
-		echo '<h3>' . $title . '</h3>';
+		echo '<div class="blue-banner'.$bannerClass.'"><h4>' . $title . '</h4></div>';
 		
 		if ( ! empty( $image ) ) 
 			echo '<div class="content">';
