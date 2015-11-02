@@ -170,13 +170,13 @@ add_shortcode( 'showlist', 'showIconList' );
 add_filter('showlist', 'do_shortcode');
 
 
-class wpb_widget extends WP_Widget {
+class btw_widget extends WP_Widget {
 	
 	function __construct() {
 		parent::__construct(
-		'wpb_widget', 
-		__('Blue Title Widget', 'wpb_widget_domain'), 
-		array( 'description' => __( 'Widget with Blue Stripe behind Title', 'wpb_widget_domain' ), ) 
+		'btw_widget', 
+		__('Blue Title Widget', 'btw_widget_domain'), 
+		array( 'description' => __( 'Widget with Blue Stripe behind Title', 'btw_widget_domain_domain' ), ) 
 		);
 	}
 	
@@ -233,42 +233,42 @@ class wpb_widget extends WP_Widget {
 		$title = $instance[ 'title' ];
 	}
 	else {
-		$title = __( 'New Title', 'wpb_widget_domain' );
+		$title = __( 'New Title', 'btw_widget_domain_domain' );
 	}
 	
 	if ( isset( $instance[ 'desc' ] ) ) {
 		$desc = $instance[ 'desc' ];
 	}
 	else {
-		$desc = __( 'New Description', 'wpb_widget_domain' );
+		$desc = __( 'New Description', 'btw_widget_domain_domain' );
 	}
 
 	if ( isset( $instance[ 'image' ] ) ) {
 		$image = $instance[ 'image' ];
 	}
 	else {
-		$image = __( 'New Image URL', 'wpb_widget_domain' );
+		$image = __( 'New Image URL', 'btw_widget_domain_domain' );
 	}
 
 	if ( isset( $instance[ 'button' ] ) ) {
 		$button = $instance[ 'button' ];
 	}
 	else {
-		$button = __( 'Button Text', 'wpb_widget_domain' );
+		$button = __( 'Button Text', 'btw_widget_domain_domain' );
 	}
 	
 	if ( isset( $instance[ 'link' ] ) ) {
 		$link = $instance[ 'link' ];
 	}
 	else {
-		$link = __( 'Button Link', 'wpb_widget_domain' );
+		$link = __( 'Button Link', 'btw_widget_domain_domain' );
 	}
 	
 	if ( isset( $instance[ 'ctaimg' ] ) ) {
 		$ctaimg = $instance[ 'ctaimg' ];
 	}
 	else {
-		$ctaImg = __( 'CTA Image', 'wpb_widget_domain' );
+		$ctaImg = __( 'CTA Image', 'btw_widget_domain_domain' );
 	}
 	// Widget admin form
 	?>
@@ -311,9 +311,9 @@ class wpb_widget extends WP_Widget {
 	}
 }
 
-function wpb_load_widget_1() {
-	register_widget( 'wpb_widget' );
+function btw_load_widget() {
+	register_widget( 'btw_widget' );
 }
-add_action( 'widgets_init', 'wpb_load_widget_1' );
+add_action( 'widgets_init', 'btw_load_widget' );
 
 ?>
