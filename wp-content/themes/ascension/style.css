@@ -524,6 +524,7 @@ img.aligncenter,
 }
 .page-content .right-content .carousel-widget .content ul li .meta {
 	float: right;
+	display: inline-block;
 }
 /* End Custom Widget Styles - Carousel Widget */
 
