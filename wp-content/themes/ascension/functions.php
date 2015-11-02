@@ -190,8 +190,11 @@ class wpb_widget extends WP_Widget {
 		
 		// before and after widget arguments are defined by themes
 		echo $args['before_widget'];
+		
+		echo '<div class="blue-title-widget">';
+		
 		if ( ! empty( $title ) )
-		echo $args['before_title'] . $title . $args['after_title'];
+		echo '<h3>' . $title . '</h3>';
 		
 		if ( ! empty( $desc ) )
 		echo '<p>' . $desc . '</p>';
@@ -205,8 +208,8 @@ class wpb_widget extends WP_Widget {
 		if ( ! empty( $ctaimg ) )
 		echo '<p>' . $ctaimg . '</p>';
 		
-		// This is where you run the code and display the output
-		echo __( 'Hello, World!', 'wpb_widget_domain' );
+		echo '</div>';
+		
 		echo $args['after_widget'];
 	}
 			
