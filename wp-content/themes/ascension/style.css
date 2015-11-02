@@ -526,6 +526,17 @@ img.aligncenter,
 	float: right;
 	display: inline-block;
 }
+.page-content .right-content .carousel-widget .content ul li .meta .date {
+	display: block;
+	font-size: 10px;
+	color: #8d8d8d;
+}
+.page-content .right-content .carousel-widget .content ul li .meta a {
+	display: block;
+	font-size: 10px;
+	color: #007cbf;
+	
+}
 /* End Custom Widget Styles - Carousel Widget */
 
 
