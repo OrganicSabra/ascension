@@ -473,11 +473,12 @@ img.aligncenter,
 }
 .page-content .right-content .blue-title-widget .content .cta a {
 	color: #fff;
-	text-transform: uppercase;
+	background-color: #007cbf;
+	display: inline-block;
 }
 
 .page-content .right-content .blue-title-widget.hasImage .content {
-	max-width: 34.6%;
+	width: 66%;
 }
 
 .page-content .icon-list {
