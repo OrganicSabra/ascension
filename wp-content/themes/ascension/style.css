@@ -497,8 +497,15 @@ img.aligncenter,
 .page-content .right-content .blue-title-widget.hasImage .content {
 	width: 66%;
 }
-
 /* End Custom Widget Styles - Blue Title Widget */
+
+/* Custom Widget Styles - Carousel Widget */
+.page-content .right-content .carousel-widget {
+	width: 100%;
+	background-color: #f5f3f2;
+	position: relative;
+}
+/* End Custom Widget Styles - Carousel Widget */
 
 
 .page-content .icon-list {
