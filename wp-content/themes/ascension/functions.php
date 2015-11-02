@@ -176,7 +176,7 @@ class btw_widget extends WP_Widget {
 		parent::__construct(
 		'btw_widget', 
 		__('Blue Title Widget', 'btw_widget_domain'), 
-		array( 'description' => __( 'Widget with Blue Stripe behind Title', 'btw_widget_domain_domain' ), ) 
+		array( 'description' => __( 'Widget with Blue Stripe behind Title', 'btw_widget_domain' ), ) 
 		);
 	}
 	
@@ -233,42 +233,42 @@ class btw_widget extends WP_Widget {
 		$title = $instance[ 'title' ];
 	}
 	else {
-		$title = __( 'New Title', 'btw_widget_domain_domain' );
+		$title = __( 'New Title', 'btw_widget_domain' );
 	}
 	
 	if ( isset( $instance[ 'desc' ] ) ) {
 		$desc = $instance[ 'desc' ];
 	}
 	else {
-		$desc = __( 'New Description', 'btw_widget_domain_domain' );
+		$desc = __( 'New Description', 'btw_widget_domain' );
 	}
 
 	if ( isset( $instance[ 'image' ] ) ) {
 		$image = $instance[ 'image' ];
 	}
 	else {
-		$image = __( 'New Image URL', 'btw_widget_domain_domain' );
+		$image = __( 'New Image URL', 'btw_widget_domain' );
 	}
 
 	if ( isset( $instance[ 'button' ] ) ) {
 		$button = $instance[ 'button' ];
 	}
 	else {
-		$button = __( 'Button Text', 'btw_widget_domain_domain' );
+		$button = __( 'Button Text', 'btw_widget_domain' );
 	}
 	
 	if ( isset( $instance[ 'link' ] ) ) {
 		$link = $instance[ 'link' ];
 	}
 	else {
-		$link = __( 'Button Link', 'btw_widget_domain_domain' );
+		$link = __( 'Button Link', 'btw_widget_domain' );
 	}
 	
 	if ( isset( $instance[ 'ctaimg' ] ) ) {
 		$ctaimg = $instance[ 'ctaimg' ];
 	}
 	else {
-		$ctaImg = __( 'CTA Image', 'btw_widget_domain_domain' );
+		$ctaImg = __( 'CTA Image', 'btw_widget_domain' );
 	}
 	// Widget admin form
 	?>
@@ -317,4 +317,3 @@ function btw_load_widget() {
 add_action( 'widgets_init', 'btw_load_widget' );
 
 ?>
-
