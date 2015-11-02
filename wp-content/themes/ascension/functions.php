@@ -298,7 +298,7 @@ class wpb_widget extends WP_Widget {
 		$instance['desc'] = ( ! empty( $new_instance['desc'] ) ) ? strip_tags( $new_instance['desc'] ) : '';
 		$instance['image'] = ( ! empty( $new_instance['image'] ) ) ? strip_tags( $new_instance['image'] ) : '';
 		$instance['button'] = ( ! empty( $new_instance['button'] ) ) ? strip_tags( $new_instance['button'] ) : '';
-		$instance['button'] = ( ! empty( $new_instance['link'] ) ) ? strip_tags( $new_instance['link'] ) : '';
+		$instance['link'] = ( ! empty( $new_instance['link'] ) ) ? strip_tags( $new_instance['link'] ) : '';
 		$instance['ctaimg'] = ( ! empty( $new_instance['ctaimg'] ) ) ? strip_tags( $new_instance['ctaimg'] ) : '';
 		return $instance;
 	}
