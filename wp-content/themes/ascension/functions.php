@@ -186,6 +186,7 @@ class wpb_widget extends WP_Widget {
 		$desc = apply_filters( 'widget_description', $instance['desc'] );
 		$image = apply_filters( 'widget_description', $instance['image'] );
 		$button = apply_filters( 'widget_description', $instance['button'] );
+		$link = apply_filters( 'widget_description', $instance['link'] );
 		$ctaImg = apply_filters( 'widget_description', $instance['ctaimg'] );
 		
 		// before and after widget arguments are defined by themes
@@ -196,17 +197,23 @@ class wpb_widget extends WP_Widget {
 		if ( ! empty( $title ) )
 		echo '<h3>' . $title . '</h3>';
 		
+		if ( ! empty( $image ) ) 
+			echo '<div class="content">';
+		
 		if ( ! empty( $desc ) )
 		echo '<p>' . $desc . '</p>';
 		
-		if ( ! empty( $image ) )
-		echo '<p>' . $image . '</p>';
-		
 		if ( ! empty( $button ) )
-		echo '<p>' . $button . '</p>';
+		echo '<a href="'.$link.'" title="'.$title.'">' . $button . '</a>';
 		
 		if ( ! empty( $ctaimg ) )
 		echo '<p>' . $ctaimg . '</p>';
+		
+		if ( ! empty( $image ) ) 
+			echo '</div>';
+		
+		if ( ! empty( $image ) )
+		echo '<img src="' . $image . '" alt="'.$title.'" class="absimg" />';
 		
 		echo '</div>';
 		
@@ -243,6 +250,13 @@ class wpb_widget extends WP_Widget {
 		$button = __( 'Button Text', 'wpb_widget_domain' );
 	}
 	
+	if ( isset( $instance[ 'link' ] ) ) {
+		$button = $instance[ 'link' ];
+	}
+	else {
+		$button = __( 'Button Link', 'wpb_widget_domain' );
+	}
+	
 	if ( isset( $instance[ 'ctaimg' ] ) ) {
 		$ctaimg = $instance[ 'ctaimg' ];
 	}
@@ -268,6 +282,10 @@ class wpb_widget extends WP_Widget {
 		<input class="widefat" id="<?php echo $this->get_field_id( 'button' ); ?>" name="<?php echo $this->get_field_name( 'button' ); ?>" type="text" value="<?php echo esc_attr( $button ); ?>" />
 	</p>
 	<p>
+		<label for="<?php echo $this->get_field_id( 'link' ); ?>"><?php _e( 'Button Link:' ); ?></label> 
+		<input class="widefat" id="<?php echo $this->get_field_id( 'link' ); ?>" name="<?php echo $this->get_field_name( 'link' ); ?>" type="text" value="<?php echo esc_attr( $link ); ?>" />
+	</p>
+	<p>
 		<label for="<?php echo $this->get_field_id( 'ctaimg' ); ?>"><?php _e( 'CTA Image:' ); ?></label> 
 		<input class="widefat" id="<?php echo $this->get_field_id( 'ctaimg' ); ?>" name="<?php echo $this->get_field_name( 'ctaimg' ); ?>" type="text" value="<?php echo esc_attr( $ctaimg ); ?>" />
 	</p>
@@ -280,6 +298,7 @@ class wpb_widget extends WP_Widget {
 		$instance['desc'] = ( ! empty( $new_instance['desc'] ) ) ? strip_tags( $new_instance['desc'] ) : '';
 		$instance['image'] = ( ! empty( $new_instance['image'] ) ) ? strip_tags( $new_instance['image'] ) : '';
 		$instance['button'] = ( ! empty( $new_instance['button'] ) ) ? strip_tags( $new_instance['button'] ) : '';
+		$instance['button'] = ( ! empty( $new_instance['link'] ) ) ? strip_tags( $new_instance['link'] ) : '';
 		$instance['ctaimg'] = ( ! empty( $new_instance['ctaimg'] ) ) ? strip_tags( $new_instance['ctaimg'] ) : '';
 		return $instance;
 	}
