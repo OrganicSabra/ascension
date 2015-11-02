@@ -433,6 +433,7 @@ img.aligncenter,
 .page-content .right-content .blue-title-widget {
 	width: 100%;
 	background-color: #f5f3f2;
+	position: relative;
 }
 .page-content .right-content .blue-title-widget .blue-banner {
 	background-color: #007cbf;
@@ -444,10 +445,10 @@ img.aligncenter,
 	padding: 0px;
 	margin: 0px;
 }
-.page-content .right-content .blue-title-widget .hasImage h4 {
+.page-content .right-content .blue-title-widget.hasImage h4 {
 	width: 66%;
 }
-.page-content .right-content .blue-title-widget .absimg {
+.page-content .right-content .blue-title-widget.hasImage .absimg {
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
