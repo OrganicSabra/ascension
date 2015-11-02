@@ -525,6 +525,7 @@ img.aligncenter,
 .page-content .right-content .carousel-widget .content ul li .meta {
 	float: right;
 	display: inline-block;
+	text-align: right;
 }
 .page-content .right-content .carousel-widget .content ul li .meta .date {
 	display: block;
