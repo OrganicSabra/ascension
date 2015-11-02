@@ -530,11 +530,13 @@ img.aligncenter,
 	display: block;
 	font-size: 10px;
 	color: #8d8d8d;
+	line-height: 12px;
 }
 .page-content .right-content .carousel-widget .content ul li .meta a {
 	display: block;
 	font-size: 10px;
 	color: #007cbf;
+	line-height: 12px;
 	
 }
 /* End Custom Widget Styles - Carousel Widget */
