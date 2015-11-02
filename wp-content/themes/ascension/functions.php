@@ -369,7 +369,16 @@ class carousel_widget extends WP_Widget {
 		echo '<ul>';
 		
 		if(!empty($posttype)) {
-			
+			$args = array(
+				'post_type'=> $posttype
+			);
+			query_posts( $args );
+			while ( have_posts() ) : the_post();
+			    echo '<li>';
+			    the_title();
+			    echo '</li>';
+			endwhile;
+			wp_reset_query();
 		}
 		else {
 			echo '<li>No Posts to Show</li>';
