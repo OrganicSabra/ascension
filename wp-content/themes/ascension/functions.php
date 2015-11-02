@@ -186,7 +186,7 @@ class wpb_widget extends WP_Widget {
 		$desc = apply_filters( 'widget_description', $instance['desc'] );
 		$image = apply_filters( 'widget_description', $instance['image'] );
 		$button = apply_filters( 'widget_description', $instance['button'] );
-		$ctaImg = apply_filters( 'widget_description', $instance['cta'] );
+		$ctaImg = apply_filters( 'widget_description', $instance['ctaimg'] );
 		
 		// before and after widget arguments are defined by themes
 		echo $args['before_widget'];
@@ -202,8 +202,8 @@ class wpb_widget extends WP_Widget {
 		if ( ! empty( $button ) )
 		echo '<p>' . $button . '</p>';
 		
-		if ( ! empty( $ctaImg ) )
-		echo '<p>' . $ctaImg . '</p>';
+		if ( ! empty( $ctaimg ) )
+		echo '<p>' . $ctaimg . '</p>';
 		
 		// This is where you run the code and display the output
 		echo __( 'Hello, World!', 'wpb_widget_domain' );
@@ -240,8 +240,8 @@ class wpb_widget extends WP_Widget {
 		$button = __( 'Button Text', 'wpb_widget_domain' );
 	}
 	
-	if ( isset( $instance[ 'ctamg' ] ) ) {
-		$ctaImg = $instance[ 'ctamg' ];
+	if ( isset( $instance[ 'ctaimg' ] ) ) {
+		$ctaimg = $instance[ 'ctaimg' ];
 	}
 	else {
 		$ctaImg = __( 'CTA Image', 'wpb_widget_domain' );
@@ -277,7 +277,7 @@ class wpb_widget extends WP_Widget {
 		$instance['desc'] = ( ! empty( $new_instance['desc'] ) ) ? strip_tags( $new_instance['desc'] ) : '';
 		$instance['image'] = ( ! empty( $new_instance['image'] ) ) ? strip_tags( $new_instance['image'] ) : '';
 		$instance['button'] = ( ! empty( $new_instance['button'] ) ) ? strip_tags( $new_instance['button'] ) : '';
-		$instance['ctaimg'] = ( ! empty( $new_instance['image'] ) ) ? strip_tags( $new_instance['ctaimg'] ) : '';
+		$instance['ctaimg'] = ( ! empty( $new_instance['ctaimg'] ) ) ? strip_tags( $new_instance['ctaimg'] ) : '';
 		return $instance;
 	}
 }
