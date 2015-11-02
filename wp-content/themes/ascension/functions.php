@@ -170,7 +170,7 @@ add_shortcode( 'showlist', 'showIconList' );
 add_filter('showlist', 'do_shortcode');
 
 
-class wpb_widget_1 extends WP_Widget {
+class wpb_widget extends WP_Widget {
 	
 	function __construct() {
 		parent::__construct(
