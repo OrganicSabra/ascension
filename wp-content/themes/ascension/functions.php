@@ -343,7 +343,12 @@ class carousel_widget extends WP_Widget {
 
 		echo '<ul>';
 		
-		echo '<li>Posts Here</li>';
+		if(!empty($posttype)) {
+			
+		}
+		else {
+			echo '<li>No Posts to Show</li>';
+		}
 		
 		echo '</ul>'; 
 		
