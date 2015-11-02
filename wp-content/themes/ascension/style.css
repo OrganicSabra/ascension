@@ -461,15 +461,16 @@ img.aligncenter,
 	max-height: 100%;
 }
 .page-content .right-content .blue-title-widget .content {
-	margin: 40px 0px 0px 0px;
+	margin: 30px 0px 0px 0px;
 	padding: 0px 4%;
 	font-family: 'Open Sans', sans-serif;
 }
 .page-content .right-content .blue-title-widget .content p {
-	font-size: 13px;
+	font-size: 12px;
 	font-style: italic;
 	color: #464646;
 	line-height: 24px;
+	padding: 0px 0px 30px 0px;
 }
 .page-content .right-content .blue-title-widget .content .cta {
 	position: relative;
