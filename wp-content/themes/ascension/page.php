@@ -115,7 +115,6 @@ get_header(); ?>
 					<div class="right-content">
 						<?php dynamic_sidebar($sideType); ?>
 					</div>
-					<div class="clear"></div>
 				<?php } ?>
 					<div class="clear"></div>
 				</div>
