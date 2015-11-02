@@ -233,21 +233,21 @@ class btw_widget extends WP_Widget {
 		$title = $instance[ 'title' ];
 	}
 	else {
-		$title = __( 'New Title', 'btw_widget_domain' );
+		$title = __( 'Title', 'btw_widget_domain' );
 	}
 	
 	if ( isset( $instance[ 'desc' ] ) ) {
 		$desc = $instance[ 'desc' ];
 	}
 	else {
-		$desc = __( 'New Description', 'btw_widget_domain' );
+		$desc = __( 'Description', 'btw_widget_domain' );
 	}
 
 	if ( isset( $instance[ 'image' ] ) ) {
 		$image = $instance[ 'image' ];
 	}
 	else {
-		$image = __( 'New Image URL', 'btw_widget_domain' );
+		$image = __( 'Image URL', 'btw_widget_domain' );
 	}
 
 	if ( isset( $instance[ 'button' ] ) ) {
@@ -358,43 +358,16 @@ class carousel_widget extends WP_Widget {
 		$title = $instance[ 'title' ];
 	}
 	else {
-		$title = __( 'New Title', 'carousel_widget_domain' );
+		$title = __( 'Title', 'carousel_widget_domain' );
 	}
 	
-	if ( isset( $instance[ 'desc' ] ) ) {
-		$desc = $instance[ 'desc' ];
+	if ( isset( $instance[ 'posttype' ] ) ) {
+		$posttype = $instance[ 'posttype' ];
 	}
 	else {
-		$desc = __( 'New Description', 'carousel_widget_domain' );
+		$posttype = __( 'Post Type', 'carousel_widget_domain' );
 	}
 
-	if ( isset( $instance[ 'image' ] ) ) {
-		$image = $instance[ 'image' ];
-	}
-	else {
-		$image = __( 'New Image URL', 'carousel_widget_domain' );
-	}
-
-	if ( isset( $instance[ 'button' ] ) ) {
-		$button = $instance[ 'button' ];
-	}
-	else {
-		$button = __( 'Button Text', 'carousel_widget_domain' );
-	}
-	
-	if ( isset( $instance[ 'link' ] ) ) {
-		$link = $instance[ 'link' ];
-	}
-	else {
-		$link = __( 'Button Link', 'carousel_widget_domain' );
-	}
-	
-	if ( isset( $instance[ 'ctaimg' ] ) ) {
-		$ctaimg = $instance[ 'ctaimg' ];
-	}
-	else {
-		$ctaImg = __( 'CTA Image', 'carousel_widget_domain' );
-	}
 	// Widget admin form
 	?>
 	<p>
@@ -402,24 +375,8 @@ class carousel_widget extends WP_Widget {
 		<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" />
 	</p>
 	<p>
-		<label for="<?php echo $this->get_field_id( 'desc' ); ?>"><?php _e( 'Description:' ); ?></label> 
-		<input class="widefat" id="<?php echo $this->get_field_id( 'desc' ); ?>" name="<?php echo $this->get_field_name( 'desc' ); ?>" type="text" value="<?php echo esc_attr( $desc ); ?>" />
-	</p>
-	<p>
-		<label for="<?php echo $this->get_field_id( 'image' ); ?>"><?php _e( 'Image URL:' ); ?></label> 
-		<input class="widefat" id="<?php echo $this->get_field_id( 'image' ); ?>" name="<?php echo $this->get_field_name( 'image' ); ?>" type="text" value="<?php echo esc_attr( $image ); ?>" />
-	</p>
-	<p>
-		<label for="<?php echo $this->get_field_id( 'button' ); ?>"><?php _e( 'Button Text:' ); ?></label> 
-		<input class="widefat" id="<?php echo $this->get_field_id( 'button' ); ?>" name="<?php echo $this->get_field_name( 'button' ); ?>" type="text" value="<?php echo esc_attr( $button ); ?>" />
-	</p>
-	<p>
-		<label for="<?php echo $this->get_field_id( 'link' ); ?>"><?php _e( 'Button Link:' ); ?></label> 
-		<input class="widefat" id="<?php echo $this->get_field_id( 'link' ); ?>" name="<?php echo $this->get_field_name( 'link' ); ?>" type="text" value="<?php echo esc_attr( $link ); ?>" />
-	</p>
-	<p>
-		<label for="<?php echo $this->get_field_id( 'ctaimg' ); ?>"><?php _e( 'CTA Image:' ); ?></label> 
-		<input class="widefat" id="<?php echo $this->get_field_id( 'ctaimg' ); ?>" name="<?php echo $this->get_field_name( 'ctaimg' ); ?>" type="text" value="<?php echo esc_attr( $ctaimg ); ?>" />
+		<label for="<?php echo $this->get_field_id( 'posttype' ); ?>"><?php _e( 'Post Type:' ); ?></label> 
+		<input class="widefat" id="<?php echo $this->get_field_id( 'desc' ); ?>" name="<?php echo $this->get_field_name( 'posttype' ); ?>" type="text" value="<?php echo esc_attr( $posttype ); ?>" />
 	</p>
 	<?php 
 	}
@@ -427,11 +384,7 @@ class carousel_widget extends WP_Widget {
 	public function update( $new_instance, $old_instance ) {
 		$instance = array();
 		$instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
-		$instance['desc'] = ( ! empty( $new_instance['desc'] ) ) ? strip_tags( $new_instance['desc'] ) : '';
-		$instance['image'] = ( ! empty( $new_instance['image'] ) ) ? strip_tags( $new_instance['image'] ) : '';
-		$instance['button'] = ( ! empty( $new_instance['button'] ) ) ? strip_tags( $new_instance['button'] ) : '';
-		$instance['link'] = ( ! empty( $new_instance['link'] ) ) ? strip_tags( $new_instance['link'] ) : '';
-		$instance['ctaimg'] = ( ! empty( $new_instance['ctaimg'] ) ) ? strip_tags( $new_instance['ctaimg'] ) : '';
+		$instance['posttype'] = ( ! empty( $new_instance['posttype'] ) ) ? strip_tags( $new_instance['posttype'] ) : '';
 		return $instance;
 	}
 }
