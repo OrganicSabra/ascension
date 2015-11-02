@@ -447,6 +447,12 @@ img.aligncenter,
 .page-content .right-content .blue-title-widget .hasImage h4 {
 	width: 66%;
 }
+.page-content .right-content .blue-title-widget .absimg {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 34.6%;
+}
 
 .page-content .icon-list {
 	width: 100%;
