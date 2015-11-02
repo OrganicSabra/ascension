@@ -437,7 +437,7 @@ img.aligncenter,
 	position: relative;
 }
 .page-content .right-content .blue-title-widget.hasImage {
-	margin: 25px 0px 0px 0px;
+	padding: 25px 0px;
 }
 .page-content .right-content .blue-title-widget .blue-banner {
 	background-color: #007cbf;
