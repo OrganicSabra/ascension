@@ -170,13 +170,13 @@ add_shortcode( 'showlist', 'showIconList' );
 add_filter('showlist', 'do_shortcode');
 
 
-class wpb_widget_1_1 extends WP_Widget {
+class wpb_widget_1 extends WP_Widget {
 	
 	function __construct() {
 		parent::__construct(
-		'wpb_widget_1', 
-		__('Blue Title Widget', 'wpb_widget_1_domain'), 
-		array( 'description' => __( 'Widget with Blue Stripe behind Title', 'wpb_widget_1_domain' ), ) 
+		'wpb_widget', 
+		__('Blue Title Widget', 'wpb_widget_domain'), 
+		array( 'description' => __( 'Widget with Blue Stripe behind Title', 'wpb_widget_domain' ), ) 
 		);
 	}
 	
@@ -206,7 +206,7 @@ class wpb_widget_1_1 extends WP_Widget {
 		echo '<p>' . $ctaImg . '</p>';
 		
 		// This is where you run the code and display the output
-		echo __( 'Hello, World!', 'wpb_widget_1_domain' );
+		echo __( 'Hello, World!', 'wpb_widget_domain' );
 		echo $args['after_widget'];
 	}
 			
@@ -216,35 +216,35 @@ class wpb_widget_1_1 extends WP_Widget {
 		$title = $instance[ 'title' ];
 	}
 	else {
-		$title = __( 'New Title', 'wpb_widget_1_domain' );
+		$title = __( 'New Title', 'wpb_widget_domain' );
 	}
 	
 	if ( isset( $instance[ 'desc' ] ) ) {
 		$desc = $instance[ 'desc' ];
 	}
 	else {
-		$desc = __( 'New Description', 'wpb_widget_1_domain' );
+		$desc = __( 'New Description', 'wpb_widget_domain' );
 	}
 
 	if ( isset( $instance[ 'image' ] ) ) {
 		$image = $instance[ 'image' ];
 	}
 	else {
-		$image = __( 'New Image URL', 'wpb_widget_1_domain' );
+		$image = __( 'New Image URL', 'wpb_widget_domain' );
 	}
 
 	if ( isset( $instance[ 'button' ] ) ) {
 		$button = $instance[ 'button' ];
 	}
 	else {
-		$button = __( 'Button Text', 'wpb_widget_1_domain' );
+		$button = __( 'Button Text', 'wpb_widget_domain' );
 	}
 	
 	if ( isset( $instance[ 'ctamg' ] ) ) {
 		$ctaImg = $instance[ 'ctamg' ];
 	}
 	else {
-		$ctaImg = __( 'CTA Image', 'wpb_widget_1_domain' );
+		$ctaImg = __( 'CTA Image', 'wpb_widget_domain' );
 	}
 	// Widget admin form
 	?>
@@ -284,7 +284,7 @@ class wpb_widget_1_1 extends WP_Widget {
 }
 
 function wpb_load_widget_1() {
-	register_widget( 'wpb_widget_1' );
+	register_widget( 'wpb_widget' );
 }
 add_action( 'widgets_init', 'wpb_load_widget_1' );
 
