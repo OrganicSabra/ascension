@@ -323,54 +323,31 @@ class carousel_widget extends WP_Widget {
 	function __construct() {
 		parent::__construct(
 		'carousel_widget', 
-		__('Blue Title Widget', 'carousel_widget_domain'), 
-		array( 'description' => __( 'Widget with Blue Stripe behind Title', 'carousel_widget_domain' ), ) 
+		__('Carousel Widget', 'carousel_widget_domain'), 
+		array( 'description' => __( 'Widget with Carousel of Posts', 'carousel_widget_domain' ), ) 
 		);
 	}
 	
 	// Widget Front-End
 	public function widget( $args, $instance ) {
 		$title = apply_filters( 'widget_title', $instance['title'] );
-		$desc = apply_filters( 'widget_description', $instance['desc'] );
-		$image = apply_filters( 'widget_description', $instance['image'] );
-		$button = apply_filters( 'widget_description', $instance['button'] );
-		$link = apply_filters( 'widget_description', $instance['link'] );
-		$ctaimg = apply_filters( 'widget_description', $instance['ctaimg'] );
-		
-		if ( ! empty( $image ) ) 
-			$hasImageClass = ' hasImage';
+		$posttype = apply_filters( 'widget_description', $instance['posttype'] );
 		
 		// before and after widget arguments are defined by themes
 		echo $args['before_widget'];
 		
-		echo '<div class="blue-title-widget'.$hasImageClass.'">';
-		
+		echo '<div class="carousel-widget">';
+				
 		if ( ! empty( $title ) )
 		echo '<div class="blue-banner"><h4>' . $title . '</h4></div>';
+
+		echo '<ul>';
 		
-		if ( ! empty( $image ) ) 
-			echo '<div class="content">';
+		echo '<li>Posts Here</li>';
 		
-		if ( ! empty( $desc ) )
-		echo '<p>' . $desc . '</p>';
+		echo '</ul>'; 
 		
-		echo '<div class="cta">';
-		
-		if ( ! empty( $button ) )
-		echo '<a href="'.$link.'" title="'.$title.'">' . $button . '</a>';
-		
-		if ( ! empty( $ctaimg ) )
-		echo '<img src="' . $ctaimg . '" alt="'.$title.'" />';
-		
-		echo '</div>';
-		
-		if ( ! empty( $image ) ) 
-			echo '</div>';
-		
-		if ( ! empty( $image ) )
-		echo '<img src="' . $image . '" alt="'.$title.'" class="absimg" />';
-		
-		echo '</div>';
+		echo '</div>'; // End carousel-widget class
 		
 		echo $args['after_widget'];
 	}
