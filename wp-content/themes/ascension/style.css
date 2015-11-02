@@ -487,11 +487,11 @@ img.aligncenter,
 	width: 66%;
 }
 .page-content .right-content .blue-title-widget .content .cta a {
-	margin-left: 36%;
+	margin-left: 37%;
 }
 .page-content .right-content .blue-title-widget .content .cta img {
 	position: absolute;
-	left: 0px;
+	left: -13px;
 	bottom: 0px;
 	width: 35%;
 }
