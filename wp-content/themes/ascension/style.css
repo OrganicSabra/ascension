@@ -508,7 +508,9 @@ img.aligncenter,
 	padding: 0px 0px 20px 0px;
 }
 .page-content .right-content .carousel-widget .content {
-	padding: 0px 4% 30px 4%;
+	padding: 64px 4% 30px 4%;
+	background: transparent url ('/wp-content/themes/ascension/images/quote-bg.png') no-repeat top left;
+	background-size: 100% auto;
 }
 .page-content .right-content .carousel-widget .content ul {
 	padding: 0px 0px 20px 0px;
