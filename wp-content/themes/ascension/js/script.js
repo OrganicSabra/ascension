@@ -6,6 +6,8 @@ jQuery(function( $ ) {
 	});
 	
 	$(document).ready(function(){
-		$('.bxslider').bxSlider();
+		$('.bxslider').bxSlider({
+			'controls': false
+		});
 	});
 });
