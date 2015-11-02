@@ -522,6 +522,9 @@ img.aligncenter,
 	color: #464646;
 	line-height: 24px;
 }
+.page-content .right-content .carousel-widget .content ul li .meta {
+	float: right;
+}
 /* End Custom Widget Styles - Carousel Widget */
 
 

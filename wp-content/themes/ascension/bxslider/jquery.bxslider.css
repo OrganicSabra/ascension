@@ -45,7 +45,7 @@
 /* PAGER */
 
 .bx-wrapper .bx-pager {
-	text-align: center;
+	padding: 35px 0px 0px 0px;
 	font-size: .85em;
 	font-family: Arial;
 	font-weight: bold;

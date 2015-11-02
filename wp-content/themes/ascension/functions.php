@@ -377,6 +377,12 @@ class carousel_widget extends WP_Widget {
 			while ( have_posts() ) : the_post();
 			    echo '<li>';
 			    echo '<p>'.get_the_content().'</p>';
+				echo '<div class="meta">';
+				echo '<img src="'.get_field('image').'" />';
+				echo '<span class="date">'.get_field('date').'</span>';
+				echo '<a href="http://'.get_field('website').'">'.get_field('website').'</a>';
+				echo '</div>';
+				echo '<div class="clear"></div>';
 			    echo '</li>';
 			endwhile;
 			wp_reset_query();
