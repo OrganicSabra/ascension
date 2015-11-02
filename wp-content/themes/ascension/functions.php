@@ -385,7 +385,6 @@ class carousel_widget extends WP_Widget {
 		}
 		
 		echo '</ul>'; 
-		echo '<div class="clear"></div>';
 		echo '</div>'; // End carousel-widget class
 		
 		echo $args['after_widget'];
