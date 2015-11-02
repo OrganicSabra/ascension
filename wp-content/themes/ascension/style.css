@@ -505,7 +505,14 @@ img.aligncenter,
 	width: 100%;
 	background-color: #f5f3f2;
 	position: relative;
-	padding: 0px 0px 60px 0px;
+	padding: 0px 0px 20px 0px;
+}
+.page-content .right-content .carousel-widget .content {
+	font-size: 12px;
+	font-style: italic;
+	color: #464646;
+	line-height: 24px;
+	padding: 0px 4% 30px 4%;
 }
 /* End Custom Widget Styles - Carousel Widget */
 

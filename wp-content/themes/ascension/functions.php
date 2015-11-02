@@ -365,7 +365,8 @@ class carousel_widget extends WP_Widget {
 				
 		if ( ! empty( $title ) )
 		echo '<div class="blue-banner"><h4>' . $title . '</h4></div>';
-
+		
+		echo '<div class="content">';
 		echo '<ul class="bxslider">';
 		
 		if(!empty($posttype)) {
@@ -385,6 +386,7 @@ class carousel_widget extends WP_Widget {
 		}
 		
 		echo '</ul>'; 
+		echo '</div>'; 
 		echo '</div>'; // End carousel-widget class
 		
 		echo $args['after_widget'];
