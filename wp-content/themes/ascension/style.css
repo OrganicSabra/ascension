@@ -508,11 +508,17 @@ img.aligncenter,
 	padding: 0px 0px 20px 0px;
 }
 .page-content .right-content .carousel-widget .content {
+	padding: 0px 4% 30px 4%;
+}
+.page-content .right-content .carousel-widget .content ul {
+	padding: 0px;
+	margin: 0px;
+}
+.page-content .right-content .carousel-widget .content ul li {
 	font-size: 12px;
 	font-style: italic;
 	color: #464646;
 	line-height: 24px;
-	padding: 0px 4% 30px 4%;
 }
 /* End Custom Widget Styles - Carousel Widget */
 
