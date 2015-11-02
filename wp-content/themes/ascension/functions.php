@@ -251,10 +251,10 @@ class wpb_widget extends WP_Widget {
 	}
 	
 	if ( isset( $instance[ 'link' ] ) ) {
-		$button = $instance[ 'link' ];
+		$link = $instance[ 'link' ];
 	}
 	else {
-		$button = __( 'Button Link', 'wpb_widget_domain' );
+		$link = __( 'Button Link', 'wpb_widget_domain' );
 	}
 	
 	if ( isset( $instance[ 'ctaimg' ] ) ) {
