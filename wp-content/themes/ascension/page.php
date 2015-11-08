@@ -104,6 +104,9 @@ get_header(); ?>
 						<?php
 						}
 					}
+					// Add functionality to determine which type of icon list is to display.
+						// Standard icon on left and text on right
+						// staggered sides
 					?>
 					</div>
 					<div class="clear"></div>
