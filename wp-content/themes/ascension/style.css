@@ -341,6 +341,7 @@ img.aligncenter,
 	width: 250%;
 	background-color: #191e23;
 	border-top: solid 3px #007cbf;
+	border-bottom: solid 3px #007cbf;
 }
 .site-header .main-navigation ul li:hover ul li {
 	padding: 15px 9%;
