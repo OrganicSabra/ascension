@@ -337,12 +337,18 @@ img.aligncenter,
 .site-header .main-navigation ul li:hover ul {
 	display: block;
 	position: absolute;
-	top: 0px;
+	top: 78px;
 	left: 0px;
+	width: 200%;
+	background-color: #191e23;
 }
 .site-header .main-navigation ul li:hover ul li {
 	padding: 10px 2%;
 	float: none;
+	width: 100%;
+}
+.site-header .main-navigation ul li:hover ul li a {
+	color: #fff;
 }
 
 /* Shared Page Styles */
