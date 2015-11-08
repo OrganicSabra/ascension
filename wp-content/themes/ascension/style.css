@@ -335,7 +335,7 @@ img.aligncenter,
   	-o-transition:      all .5s ease;
 }
 .site-header .main-navigation ul li:hover ul {
-	
+	display: block;
 	position: absolute;
 	top: 78px;
 	left: 0px;
