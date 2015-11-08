@@ -304,10 +304,11 @@ img.aligncenter,
 	float: left;
 	display: inline-block;
 	padding: 30px 2%;
-	transition:         all .5s ease-in-out;
-  	-webkit-transition: all .5s ease-in-out;
-  	-moz-transition:    all .5s ease-in-out;
-  	-o-transition:      all .5s ease-in-out;
+	position: relative;
+	transition:         all .5s ease;
+  	-webkit-transition: all .5s ease;
+  	-moz-transition:    all .5s ease;
+  	-o-transition:      all .5s ease;
 }
 .site-header .main-navigation ul li a {
 	display: block;
@@ -324,6 +325,24 @@ img.aligncenter,
 .site-header .main-navigation ul li.current_page_item a {
 	font-weight: 700;
 	color: #007cbf;
+}
+
+.site-header .main-navigation ul ul {
+	display: none;
+	transition:         all .5s ease;
+  	-webkit-transition: all .5s ease;
+  	-moz-transition:    all .5s ease;
+  	-o-transition:      all .5s ease;
+}
+.site-header .main-navigation ul li:hover ul {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.site-header .main-navigation ul li:hover ul li {
+	padding: 10px 2%;
+	float: none;
 }
 
 /* Shared Page Styles */
@@ -491,11 +510,11 @@ img.aligncenter,
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
-	max-width: 37%;
+	max-width: 40%;
 	max-height: 100%;
 }
 .page-content .right-content .blue-title-widget.hasImage .content {
-	width: 66%;
+	width: 60%;
 }
 /* End Custom Widget Styles - Blue Title Widget */
 
