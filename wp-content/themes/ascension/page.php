@@ -107,7 +107,13 @@ get_header(); ?>
 					?>
 					</div>
 					<?
-					} ?>
+					} 
+					if(get_field('add_content_below_icon_list')) {
+						echo get_field('secondary_content');
+					}
+					?>
+					
+					
 				<?php if($sidebar) { 
 					$sideType = get_field('select_sidebar');
 					?>
