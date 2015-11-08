@@ -342,15 +342,9 @@ img.aligncenter,
 	background-color: #191e23;
 }
 .site-header .main-navigation ul li:hover ul li {
-	padding: 10px 9%;
+	padding: 15px 9%;
 	float: none;
 	width: 100%;
-}
-.site-header .main-navigation ul li:hover ul li:first-of-type {
-	padding: 20px 9% 10px 9%;
-}
-.site-header .main-navigation ul li:hover ul li:last-of-type {
-	padding: 10px 9% 20px 9%;
 }
 .site-header .main-navigation ul li:hover ul li a {
 	color: #fff;
