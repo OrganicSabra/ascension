@@ -318,7 +318,8 @@ img.aligncenter,
 }
 
 .site-header .main-navigation ul li:hover,
-.site-header .main-navigation ul li.current_page_item {
+.site-header .main-navigation ul li.current_page_item,
+.site-header .main-navigation ul li.current_page_ancestor {
 	background-color: #0b0d0f;
 }
 .site-header .main-navigation ul li:hover a,
@@ -351,7 +352,8 @@ img.aligncenter,
 .site-header .main-navigation ul li:hover ul li a {
 	color: #fff;
 }
-.site-header .main-navigation ul li:hover ul li:hover a {
+.site-header .main-navigation ul li:hover ul li:hover a,
+.site-header .main-navigation ul li ul li.current_page_item a  {
 	color: #007cbf;
 }
 /* Shared Page Styles */
