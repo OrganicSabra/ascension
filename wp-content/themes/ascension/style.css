@@ -392,9 +392,14 @@ img.aligncenter,
 .halves.success .half {
 	vertical-align: middle;
 }
-.halves.success img {
-	width: 100%;
+.halves.success .half h4 {
 	
+}
+.halves.success img {
+	width: 100%;	
+}
+.halves.success .sep {
+	width: 100%;
 }
 
 .onethird {

@@ -93,13 +93,13 @@ get_header(); ?>
 									<img src="<?php echo $url; ?>" alt="<?php echo get_the_title(); ?>" />
 								</div>
 								<div class="half">
-									<h3>Client</h3>
+									<h4>Client</h4>
 									<p><?php echo get_the_title(); ?></p>
 									<div class="sep"><div class="line"></div></div>
-									<h3>Issue</h3>
+									<h4>Issue</h4>
 									<p><?php echo get_field('issue'); ?></p>
 									<div class="sep"><div class="line"></div></div>	
-									<h3>Solution</h3>
+									<h4>Solution</h4>
 									<p><?php echo get_field('solution'); ?></p>
 								</div>
 							</div>
