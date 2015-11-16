@@ -98,7 +98,7 @@ get_header(); ?>
 											<?php echo $row['description']; ?>
 										</div>
 										<?php
-										if($count == 0 || $count == 2) {
+										if($count == 1 || $count == 3) {
 											echo '</div>';
 										}
 									$count ++;
