@@ -472,6 +472,7 @@ function displayIconList() {
 
 	?>
 	</div>
+	<div class="clear"></div>
 	<?php
 }
 
