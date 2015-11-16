@@ -77,6 +77,8 @@ get_header(); ?>
 					<div class="left-content">
 				<?php } ?>
 					<?php echo get_the_content(); ?>
+					
+					<div class="halves success">
 					<?php
 					$args = array(
 						'post_type'=> 'testimonials'
@@ -86,25 +88,28 @@ get_header(); ?>
 						$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' );
 						$url = $thumb['0'];
 						?>
-						<div class="halves">
-							<div class="half">
-								<img src="<?php echo $url; ?>" alt="<?php echo get_the_title(); ?>" />
-							</div>
-							<div class="half">
-								<h3>Client</h3>
-								<p><?php echo get_the_title(); ?></p>
-								<div class="sep"><div class="line"></div></div>
-								<h3>Issue</h3>
-								<p><?php echo get_field('issue'); ?></p>
-								<div class="sep"><div class="line"></div></div>	
-								<h3>Solution</h3>
-								<p><?php echo get_field('solution'); ?></p>
+						<div class="halftable">
+							<div class="halfrow">
+								<div class="half">
+									<img src="<?php echo $url; ?>" alt="<?php echo get_the_title(); ?>" />
+								</div>
+								<div class="half">
+									<h3>Client</h3>
+									<p><?php echo get_the_title(); ?></p>
+									<div class="sep"><div class="line"></div></div>
+									<h3>Issue</h3>
+									<p><?php echo get_field('issue'); ?></p>
+									<div class="sep"><div class="line"></div></div>	
+									<h3>Solution</h3>
+									<p><?php echo get_field('solution'); ?></p>
+								</div>
 							</div>
 						</div>
 						<?php 
 					endwhile;
 					wp_reset_query();
 					?>
+					</div>
 					<div class="clear"></div>					
 				<?php if($sidebar) { 
 					$sideType = get_field('select_sidebar');
