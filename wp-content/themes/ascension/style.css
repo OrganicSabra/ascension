@@ -932,4 +932,10 @@ img.aligncenter,
 	.page-content .right-content .carousel-widget .content {
 		background-size: 100% auto;
 	}
+	
+	.twoby .twobytwo .block {
+		display: block;
+		width: 100%;
+		background: none!important;
+	}
 }
