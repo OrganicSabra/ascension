@@ -105,7 +105,6 @@ get_header(); ?>
 					endwhile;
 					wp_reset_query();
 					?>
-					</div>
 					<div class="clear"></div>					
 				<?php if($sidebar) { 
 					$sideType = get_field('select_sidebar');
