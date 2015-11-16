@@ -81,8 +81,7 @@ get_header(); ?>
 					// Loop through the posts.
 					?>
 					</div>
-					<div class="clear"></div>
-					
+					<div class="clear"></div>					
 				<?php if($sidebar) { 
 					$sideType = get_field('select_sidebar');
 					?>
