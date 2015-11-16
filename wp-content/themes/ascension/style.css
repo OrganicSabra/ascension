@@ -406,11 +406,11 @@ img.aligncenter,
 	max-width: 328px;	
 }
 .halves.success .half h4 {
-	padding: 10px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
 	text-align: center;
 }
 .halves.success .half p {
-	padding: 0px;
+	padding: 0px 0px 5px 0px;
 	text-align: center;
 	color: #9f9f9f;
 	font-weight: 300;
