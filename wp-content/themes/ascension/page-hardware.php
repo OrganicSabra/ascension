@@ -95,7 +95,7 @@ get_header(); ?>
 										<div class="block">
 											<div class="inner">
 												<img src="<?php echo $row['icon']; ?>" />
-												<?php echo $row['title']; ?>
+												<h4><?php echo $row['title']; ?></h4>
 												<?php echo $row['description']; ?>
 											</div>
 										</div>
