@@ -78,7 +78,32 @@ get_header(); ?>
 				<?php } ?>
 					<?php echo get_the_content(); ?>
 					<?php
-					// Loop through the posts.
+					$args = array(
+						'post_type'=> 'testimonials'
+					);
+					query_posts( $args );
+					while (have_posts()) : the_post();
+						$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' );
+						$url = $thumb['0'];
+						?>
+						<div class="list-row success-story">
+							<div class="half">
+								<img src="<?php echo $url; ?>" alt="<?php echo get_the_title(); ?>" />
+							</div>
+							<div class="half">
+								<h3>Client</h3>
+								<p><?php echo get_the_title(); ?></p>
+								<div class="sep"><div class="line"></div></div>
+								<h3>Issue</h3>
+								<p><?php echo get_field('issue'); ?></p>
+								<div class="sep"><div class="line"></div></div>	
+								<h3>Solution</h3>
+								<p><?php echo get_field('solution'); ?></p>
+							</div>
+						</div>
+						<?php 
+					endwhile;
+					wp_reset_query();
 					?>
 					</div>
 					<div class="clear"></div>					
