@@ -93,9 +93,11 @@ get_header(); ?>
 										}
 										?>
 										<div class="block">
-											<img src="<?php echo $row['icon']; ?>" />
-											<?php echo $row['title']; ?>
-											<?php echo $row['description']; ?>
+											<div class="inner">
+												<img src="<?php echo $row['icon']; ?>" />
+												<?php echo $row['title']; ?>
+												<?php echo $row['description']; ?>
+											</div>
 										</div>
 										<?php
 										if($count == 1 || $count == 3) {
