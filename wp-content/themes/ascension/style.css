@@ -693,8 +693,8 @@ img.aligncenter,
 .twoby .twobytwo .block img {
 	
 }
-.twoby .twobytwo .block:nth-of-type(1),
-.twoby .twobytwo .block:nth-of-type(3) {
+.twoby .twobytwo .block:nth-of-type(1) .inner,
+.twoby .twobytwo .block:nth-of-type(3) .inner {
 	background: transparent url('/wp-content/themes/ascension/images/dot-border.png') repeat-y top right;
 }
 
