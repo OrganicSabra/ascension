@@ -389,6 +389,14 @@ img.aligncenter,
 	float: right;
 }
 
+.halves.success .half {
+	vertical-align: middle;
+}
+.halves.success img {
+	width: 100%;
+	
+}
+
 .onethird {
 	width: 34%;
 	float: left;
