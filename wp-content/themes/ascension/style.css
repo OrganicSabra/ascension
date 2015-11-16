@@ -395,7 +395,7 @@ img.aligncenter,
 	border-bottom: solid 1px #e8e8e8;
 }
 .halves.success:last-child {
-	border-bottom: none;
+	border-bottom: 0px;
 	margin-bottom: 0px;
 }
 .halves.success .half {
