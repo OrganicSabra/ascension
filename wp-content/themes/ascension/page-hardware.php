@@ -75,41 +75,41 @@ get_header(); ?>
 				<?php if($sidebar) { ?>
 					<div class="left-content">
 				<?php } ?>
-					
-					<?php if(get_field('include_icon_list')) {
-					?>
-					<div class="icon-list">
-					<?php
-					$listID = get_field('icon_list_post_id');
-					$rows = get_field('list_row',$listID);
-					if($rows)
-					{
-						foreach($rows as $row)
-						{
-							if($row['last_item']){
-								$class = 'last';
-							}
-							else {
-								$class = '';
-							}
-						?>
-						<div class="list-row <?php echo $class; ?>">
-							<div class="icon">
-								<img src="<?php echo $row['icon']; ?>" />
-							</div>
-							<div class="content">
-								<?php echo $row['row_content']; ?>
+						<div class="list-row">
+							<?php echo get_field('top_content'); ?>
+						</div>
+						<div class="list-row">
+							<?php echo get_field('2x2_title'); ?>
+							
+							<div class="twobytwo">
+								<?php
+								$rows = get_field('2x2_display');
+								if($rows)
+								{
+									foreach($rows as $row)
+									{
+									?>
+									<div class="block">
+										<img src="<?php echo $row['icon']; ?>" />
+										<?php echo $row['title']; ?>
+										<?php echo $row['description']; ?>
+									</div>
+									<?php
+									}
+								}
+								?>
 							</div>
 						</div>
-						<?php
-						}
-					}
-					// Add functionality to determine which type of icon list is to display.
-						// Standard icon on left and text on right
-						// staggered sides
-					?>
+						<div class="list-row">
+							<?php echo get_field('middle_content'); ?>
+						</div>
+						<?php if(get_field('include_icon_list')) {
+							displayIconList();
+						?>
+						<div class="list-row">
+							<?php echo get_field('bottom_content'); ?>
+						</div>
 					<?php echo get_the_content(); ?>
-					</div>
 					<div class="clear"></div>
 					<?
 					} 
