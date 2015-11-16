@@ -389,6 +389,15 @@ img.aligncenter,
 	float: right;
 }
 
+.halves.success {
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	border-bottom: solid 1px #e8e8e8;
+}
+.halves.success:last-of-type {
+	border-bottom: none;
+	margin-bottom: 0px;
+}
 .halves.success .half {
 	vertical-align: middle;
 }
