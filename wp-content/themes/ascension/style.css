@@ -397,10 +397,12 @@ img.aligncenter,
 	max-width: 328px;	
 }
 .halves.success .half h4 {
-	padding: 0px
+	padding: 0px;
+	text-align: center;
 }
 .halves.success .half p {
 	padding: 0px;
+	text-align: center;
 }
 .halves.success .sep {
 	width: 100%;
