@@ -81,20 +81,27 @@ get_header(); ?>
 						<div class="list-row twoby">
 							<h1><?php echo get_field('2x2_title'); ?></h1>
 							<div class="twobytwo">
-								<div class="row">
 								<?php
 								$rows = get_field('2x2_display');
 								if($rows)
 								{
+									$count = 0;
 									foreach($rows as $row)
 									{
-									?>
-									<div class="block">
-										<img src="<?php echo $row['icon']; ?>" />
-										<?php echo $row['title']; ?>
-										<?php echo $row['description']; ?>
-									</div>
-									<?php
+										if($count == 0 || $count == 2) {
+											echo '<div class="row">';
+										}
+										?>
+										<div class="block">
+											<img src="<?php echo $row['icon']; ?>" />
+											<?php echo $row['title']; ?>
+											<?php echo $row['description']; ?>
+										</div>
+										<?php
+										if($count == 0 || $count == 2) {
+											echo '</div>';
+										}
+									$count ++;
 									}
 								}
 								?>
