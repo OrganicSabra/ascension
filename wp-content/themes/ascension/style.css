@@ -394,7 +394,7 @@ img.aligncenter,
 	padding-bottom: 40px;
 	border-bottom: solid 1px #e8e8e8;
 }
-.halves.success:last-child {
+.halves.success:last-of-type {
 	border-bottom: 0px;
 	margin-bottom: 0px;
 }
