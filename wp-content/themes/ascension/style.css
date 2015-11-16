@@ -664,6 +664,19 @@ img.aligncenter,
 	line-height: 25px;
 }
 
+.twoby {
+	max-width: 620px;
+	margin: 0px auto;
+}
+.twoby h1 {
+	text-align: center;
+	font-weight: 300;
+	line-height: 60px;
+}
+.twoby .twobytwo .block {
+	width: 50%;
+	float: left;
+}
 
 /* Specific Page Styles */
 .home .onetwotable {

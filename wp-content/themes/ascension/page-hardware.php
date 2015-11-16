@@ -78,9 +78,8 @@ get_header(); ?>
 						<div class="list-row">
 							<?php echo get_field('top_content'); ?>
 						</div>
-						<div class="list-row">
-							<?php echo get_field('2x2_title'); ?>
-							
+						<div class="list-row twoby">
+							<h1><?php echo get_field('2x2_title'); ?></h1>
 							<div class="twobytwo">
 								<?php
 								$rows = get_field('2x2_display');
@@ -98,6 +97,7 @@ get_header(); ?>
 									}
 								}
 								?>
+								<div class="clear"></div>
 							</div>
 						</div>
 						<div class="list-row">
