@@ -2,6 +2,7 @@
 /**
 Template Name: Success Stories
  */
+ 
 // This template needs to display "Testimonial Posts" in a loop with pagination & a sidebar.
 
 get_header(); ?>
