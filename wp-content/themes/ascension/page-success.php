@@ -1,7 +1,8 @@
 <?php
 /**
-Template Name: Hardware / Software
+Template Name: Success Stories
  */
+// This template needs to display "Testimonial Posts" in a loop with pagination & a sidebar.
 
 get_header(); ?>
 
@@ -74,40 +75,10 @@ get_header(); ?>
 				<?php if($sidebar) { ?>
 					<div class="left-content">
 				<?php } ?>
-					
-					<?php if(get_field('include_icon_list')) {
-					?>
-					<div class="icon-list">
-					<?php
-					$listID = get_field('icon_list_post_id');
-					$rows = get_field('list_row',$listID);
-					if($rows)
-					{
-						foreach($rows as $row)
-						{
-							if($row['last_item']){
-								$class = 'last';
-							}
-							else {
-								$class = '';
-							}
-						?>
-						<div class="list-row <?php echo $class; ?>">
-							<div class="icon">
-								<img src="<?php echo $row['icon']; ?>" />
-							</div>
-							<div class="content">
-								<?php echo $row['row_content']; ?>
-							</div>
-						</div>
-						<?php
-						}
-					}
-					// Add functionality to determine which type of icon list is to display.
-						// Standard icon on left and text on right
-						// staggered sides
-					?>
 					<?php echo get_the_content(); ?>
+					<?php
+					// Loop through the posts.
+					?>
 					</div>
 					<div class="clear"></div>
 					<?
