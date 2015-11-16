@@ -672,6 +672,8 @@ img.aligncenter,
 	text-align: center;
 	font-weight: 300;
 	line-height: 60px;
+	color: #4a4a4a;
+	font-size: 45px;
 }
 .twoby .twobytwo .block {
 	width: 50%;
