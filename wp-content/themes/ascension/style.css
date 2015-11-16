@@ -936,6 +936,8 @@ img.aligncenter,
 	.twoby .twobytwo .block {
 		display: block;
 		width: 100%;
+	}
+	.twoby .twobytwo .block .inner {
 		background: none!important;
 	}
 }
