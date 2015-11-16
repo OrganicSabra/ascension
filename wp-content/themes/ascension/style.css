@@ -400,6 +400,13 @@ img.aligncenter,
 }
 .halves.success .sep {
 	width: 100%;
+	padding: 10px 0px;
+}
+.halves.success .sep .line {
+	background-color: #007cbf;
+	width: 20px;
+	height: 10px;
+	margin: 0px auto;
 }
 
 .onethird {
