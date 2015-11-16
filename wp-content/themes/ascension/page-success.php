@@ -86,7 +86,7 @@ get_header(); ?>
 						$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' );
 						$url = $thumb['0'];
 						?>
-						<div class="list-row success-story">
+						<div class="halves">
 							<div class="half">
 								<img src="<?php echo $url; ?>" alt="<?php echo get_the_title(); ?>" />
 							</div>
