@@ -556,6 +556,9 @@ img.aligncenter,
 	display: inline-block;
 	text-align: right;
 }
+.page-content .right-content .carousel-widget .content ul li .meta img {
+	float: right;
+}
 .page-content .right-content .carousel-widget .content ul li .meta .date {
 	display: block;
 	font-size: 10px;
