@@ -77,8 +77,6 @@ get_header(); ?>
 					<div class="left-content">
 				<?php } ?>
 					<?php echo get_the_content(); ?>
-					
-					<div class="halves success">
 					<?php
 					$args = array(
 						'post_type'=> 'testimonials'
@@ -87,7 +85,8 @@ get_header(); ?>
 					while (have_posts()) : the_post();
 						$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' );
 						$url = $thumb['0'];
-						?>
+					?>
+					<div class="halves success">
 						<div class="halftable">
 							<div class="halfrow">
 								<div class="half">
@@ -105,11 +104,11 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-						<?php 
+					</div>
+					<?php 
 					endwhile;
 					wp_reset_query();
 					?>
-					</div>
 					<div class="clear"></div>					
 				<?php if($sidebar) { 
 					$sideType = get_field('select_sidebar');
