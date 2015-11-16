@@ -403,7 +403,7 @@ img.aligncenter,
 }
 .halves.success img {
 	width: 100%;
-	max-width: 328px;	
+	max-width: 300px;	
 }
 .halves.success .half h4 {
 	padding: 0px 0px 5px 0px;
@@ -838,6 +838,10 @@ img.aligncenter,
 		float: none;
 		text-align: center;
 	}
+	.halves.success .half:nth-of-type(1) {
+		padding-bottom: 40px;
+	}
+	
 	.onetwothirds {
 		padding-bottom: 100px;
 	}
