@@ -760,12 +760,16 @@ img.aligncenter,
 }
 
 
+/* Contact Form */
 .wpcf7-form {
 	width: 100%;
 	padding: 40px 0px;
 }
 .wpcf7-form .row {
 	width: 100%;
+}
+.wpcf7-form .row .input {
+	padding: 0px 30px;
 }
 .wpcf7-form .row .input input {
 	width: 100%;
