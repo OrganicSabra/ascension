@@ -82,10 +82,10 @@ get_header(); ?>
 					);
 					query_posts( $args );
 					while (have_posts()) : the_post();
-						
-						echo get_the_title();
 					?>
-					
+					<div class="accordion">
+						<h4><?php echo get_the_title(); ?></h4>
+					</div>
 					<?php 
 					endwhile;
 					wp_reset_query();
