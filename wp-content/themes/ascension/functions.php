@@ -42,6 +42,16 @@ function theme_slug_widgets_init() {
 		'before_title'  => '<h2 class="title">',
 		'after_title'   => '</h2>' 
     ) );
+	register_sidebar( array(
+        'name' => __( 'Contact Us', 'twentyfourteen' ),
+        'id'            => 'contact-us',
+		'description'   => '',
+        'class'         => 'contact-us-side page-side',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="title">',
+		'after_title'   => '</h2>' 
+    ) );
 	
 }
 add_action( 'widgets_init', 'theme_slug_widgets_init' );
