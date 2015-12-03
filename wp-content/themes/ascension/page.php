@@ -75,7 +75,9 @@ get_header(); ?>
 					<div class="left-content">
 				<?php } ?>
 					<?php echo get_the_content(); ?>
-					
+					<?php if(get_field('contact_form_shortcode')) {
+						echo do_shortcode(get_field('contact_form_shortcode'));
+					} ?>
 					<?php if(get_field('include_icon_list')) {
 					?>
 					<div class="icon-list">
@@ -104,9 +106,6 @@ get_header(); ?>
 						<?php
 						}
 					}
-					// Add functionality to determine which type of icon list is to display.
-						// Standard icon on left and text on right
-						// staggered sides
 					?>
 					</div>
 					<div class="clear"></div>
