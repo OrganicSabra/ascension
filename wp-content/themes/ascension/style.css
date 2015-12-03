@@ -517,6 +517,12 @@ img.aligncenter,
 	background-color: #fff;
 	color: #5c5c5c;
 }
+.page-content .right-content .widget_text .contact {
+	padding: 25px 4%;
+}
+.page-content .right-content .widget_text .contact .row {
+	padding: 25px 0px;
+}
 .page-content .right-content .widget_text hr {
 	background-color: #e8e8e8;
 	width: 100%;
