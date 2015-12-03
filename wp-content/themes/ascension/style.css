@@ -517,6 +517,10 @@ img.aligncenter,
 	background-color: #fff;
 	color: #5c5c5c;
 }
+.page-content .right-content .widget_text .textwidget {
+	border: solid 1px #e8e8e8;
+	border-top: 0px;
+}
 .page-content .right-content .widget_text .contact {
 	padding: 25px 10% 0px 10%;
 }
