@@ -842,6 +842,11 @@ span.wpcf7-not-valid-tip {
 	padding: 0px;
 	margin: 0px;
 }
+#accordion div {
+	background-color: #f8f6f7; 
+	padding: 0px;
+	margin: 0px 0px 25px 0px;
+}
 
 /* Footer Styles */
 
