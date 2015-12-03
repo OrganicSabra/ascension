@@ -49,8 +49,8 @@ function theme_slug_widgets_init() {
         'class'         => 'contact-us-side page-side',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h2 class="title">',
-		'after_title'   => '</h2>' 
+		'before_title'  => '<div class="blue-banner"><h4>',
+		'after_title'   => '</h4></div>' 
     ) );
 	
 }
