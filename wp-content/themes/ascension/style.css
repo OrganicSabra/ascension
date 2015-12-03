@@ -808,7 +808,18 @@ img.aligncenter,
 	background-color: #fff;
 	color: #007cbf;
 }
-
+div.wpcf7-mail-sent-ok {
+    border: solid 2px #007cbf;
+    background-color: #ecf9fb;
+    color: #007cbf;
+    padding: 20px;
+}
+div.wpcf7-validation-errors {
+	border: solid 2px #eb9518;
+    background-color: #f3eadc;
+    color: #eb9518;
+    padding: 20px;
+}
 
 /* Footer Styles */
 
