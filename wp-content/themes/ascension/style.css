@@ -839,6 +839,8 @@ span.wpcf7-not-valid-tip {
 } 
 #accordion h3 {
 	background-color: #f8f6f7; 
+	padding: 0px;
+	margin: 0px;
 }
 
 /* Footer Styles */
