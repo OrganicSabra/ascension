@@ -77,6 +77,29 @@ function sectionTemplate($sectionType,$row,$theID) {
 
 
 // Custom Post Type
+function faq() {
+  register_post_type( 'faq',
+    array(
+      'labels' => array(
+        'name' => __( 'FAQs' ),
+        'singular_name' => __( 'FAQ' )
+      ),
+      'supports'      => array(
+				'title',
+				'editor',
+				'thumbnail',
+				'excerpt',
+				'custom-fields',
+				'page-attributes',
+			),
+      'public' => true,
+      'has_archive' => true,
+      'exclude_from_search' => false, 
+    )
+  );
+}
+add_action( 'init', 'faq' );
+
 function issues() {
   register_post_type( 'issues',
     array(
