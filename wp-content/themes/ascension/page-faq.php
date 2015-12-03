@@ -76,20 +76,21 @@ get_header(); ?>
 					<div class="left-content">
 				<?php } ?>
 					<?php echo get_the_content(); ?>
-					<?php
-					$args = array(
-						'post_type'=> 'faq'
-					);
-					query_posts( $args );
-					while (have_posts()) : the_post();
-					?>
-					<div class="accordion">
+					<div id="accordion">
+						<?php
+						$args = array(
+							'post_type'=> 'faq'
+						);
+						query_posts( $args );
+						while (have_posts()) : the_post();
+						?>
 						<h4><?php echo get_the_title(); ?></h4>
+						<div><?php echo get_the_content(); ?></div>
+						<?php 
+						endwhile;
+						wp_reset_query();
+						?>
 					</div>
-					<?php 
-					endwhile;
-					wp_reset_query();
-					?>
 					<?php if(get_field('include_icon_list')) {
 					?>
 					<div class="icon-list">
