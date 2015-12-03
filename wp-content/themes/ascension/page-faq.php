@@ -105,7 +105,7 @@ get_header(); ?>
 						query_posts( $args );
 						while (have_posts()) : the_post();
 						?>
-						<h4><?php echo get_the_title(); ?></h4>
+						<h3><?php echo get_the_title(); ?></h3>
 						<div><?php echo get_the_content(); ?></div>
 						<?php 
 						endwhile;

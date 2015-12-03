@@ -835,8 +835,8 @@ span.wpcf7-not-valid-tip {
 
 /* FAQs */
 #accordion {
-	padding: 40px;
-}
+	padding: 40px 0px;
+} 
 
 
 /* Footer Styles */
