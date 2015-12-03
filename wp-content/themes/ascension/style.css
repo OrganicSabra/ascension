@@ -844,9 +844,11 @@ span.wpcf7-not-valid-tip {
 	margin: 25px 0px 0px 0px;
 	font-size: 30px;
 	line-height: 30px;
+	cursor: pointer;
 }
 #accordion h3.ui-state-active {
 	background: #f8f6f7 url('/wp-content/themes/ascension/images/plus-sign.png') no-repeat left center;
+	cursor: auto;
 } 
 #accordion div {
 	background-color: #f8f6f7; 
