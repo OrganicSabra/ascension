@@ -790,13 +790,16 @@ img.aligncenter,
 	font-size: 20px;
 	color: #5c5c5c;
 }
+.wpcf7-form .submit {
+	padding: 0px 0px 30px 0px;
+}
 .wpcf7-form .submit input {
 	display: inline-block;
 	font-size: 20px;
 	border: solid 1px #007cbf;
 	background-color: #007cbf;
 	color: #fff;
-	margin: 0px 2% 20px 0px;
+	margin: 0px;
 	padding: 15px 35px;
 	cursor: pointer;
 	transition:         all .5s ease-in-out;
@@ -813,6 +816,7 @@ div.wpcf7-mail-sent-ok {
     background-color: #ecf9fb;
     color: #007cbf;
     padding: 20px;
+    margin: 0px;
 }
 div.wpcf7-validation-errors {
 	border: solid 2px #eb9518;
