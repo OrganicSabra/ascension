@@ -8,20 +8,7 @@ get_header(); ?>
 
   <script type="text/javascript">
   $(function() {
-    var icons = {
-      header: "ui-icon-minus",
-      activeHeader: "ui-icon-plus"
-    };
-    $( "#accordion" ).accordion({
-      icons: icons
-    });
-    $( "#toggle" ).button().click(function() {
-      if ( $( "#accordion" ).accordion( "option", "icons" ) ) {
-        $( "#accordion" ).accordion( "option", "icons", null );
-      } else {
-        $( "#accordion" ).accordion( "option", "icons", icons );
-      }
-    });
+    $( "#accordion" ).accordion();
   });
   </script>
 		<div id="content" class="site-content" role="main">
