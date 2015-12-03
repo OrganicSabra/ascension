@@ -769,7 +769,7 @@ img.aligncenter,
 	width: 100%;
 }
 .wpcf7-form .row .input {
-	padding: 0px 30px;
+	padding: 0px 0px 30px 0px;
 }
 .wpcf7-form .row .input input {
 	width: 100%;
