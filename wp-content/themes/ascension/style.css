@@ -816,14 +816,14 @@ div.wpcf7-mail-sent-ok {
     background-color: #ecf9fb;
     color: #007cbf;
     padding: 20px;
-    margin: 0px;
+    margin: 0px 0px 30px 0px;
 }
 div.wpcf7-validation-errors {
 	border: solid 2px #eb9518;
     background-color: #f3eadc;
     color: #eb9518;
     padding: 20px;
-    margin: 0px;
+    margin: 0px 0px 30px 0px;
 }
 span.wpcf7-not-valid-tip {
 	color: #eb9518;
