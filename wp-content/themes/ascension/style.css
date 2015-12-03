@@ -764,6 +764,28 @@ img.aligncenter,
 	width: 100%;
 	padding: 40px 0px;
 }
+.wpcf7-form .row {
+	width: 100%;
+}
+.wpcf7-form .row .input input {
+	width: 100%;
+	background-color: #fbfafa;
+	border: solid 1px #e0e0e0;
+	height: 80px;
+	padding: 23px 4%;
+	line-height: 24px;
+	font-size: 20px;
+	color: #5c5c5c;
+}
+.wpcf7-form .row .input textarea {
+	width: 100%;
+	padding: 23px 4%;
+	background-color: #fbfafa;
+	border: solid 1px #e0e0e0;
+	line-height: 24px;
+	font-size: 20px;
+	color: #5c5c5c;
+}
 
 /* Footer Styles */
 
