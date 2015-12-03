@@ -515,6 +515,13 @@ img.aligncenter,
 
 .page-content .right-content .widget_text {
 	background-color: #fff;
+	color: #5c5c5c;
+}
+.page-content .right-content .widget_text hr {
+	background-color: #e8e8e8;
+	width: 100%;
+	height: 1px;
+	display: block;
 }
 
 /* Custom Widget Styles - Blue Title Widget */
