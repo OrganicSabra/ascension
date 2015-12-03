@@ -837,10 +837,7 @@ span.wpcf7-not-valid-tip {
 #accordion {
 	padding: 40px 0px;
 } 
-.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
-	border-top-right-radius: 0px;
-}
-.ui-accordion .ui-accordion-header {
+#accordion h3 {
 	background-color: #f8f6f7; 
 }
 
