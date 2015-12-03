@@ -790,7 +790,7 @@ img.aligncenter,
 	font-size: 20px;
 	color: #5c5c5c;
 }
-.wpcf7-form .submit .input {
+.wpcf7-form .submit input {
 	display: inline-block;
 	font-size: 20px;
 	border: solid 1px #007cbf;
@@ -799,7 +799,7 @@ img.aligncenter,
 	margin: 0px 2% 20px 0px;
 	padding: 15px 35px;
 }
-.wpcf7-form .submit .input hover {
+.wpcf7-form .submit input:hover {
 	background-color: #fff;
 	color: #007cbf;
 }
