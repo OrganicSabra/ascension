@@ -840,12 +840,14 @@ span.wpcf7-not-valid-tip {
 #accordion h3 {
 	background: #f8f6f7 url('/wp-content/themes/ascension/images/minus-sign.png') no-repeat center center;
 	height: 80px;
-	padding: 0px 0px 0px 110px;
+	padding: 25px 25px 25px 110px;
 	margin: 0px;
+	font-size: 30px;
+	line-height: 30px;
 }
 #accordion div {
 	background-color: #f8f6f7; 
-	padding: 0px 0px 0px 110px;
+	padding: 25px 25px 25px 110px;
 	margin: 0px 0px 25px 0px;
 }
 
