@@ -798,6 +798,10 @@ img.aligncenter,
 	color: #fff;
 	margin: 0px 2% 20px 0px;
 	padding: 15px 35px;
+	transition:         all .5s ease-in-out;
+  	-webkit-transition: all .5s ease-in-out;
+  	-moz-transition:    all .5s ease-in-out;
+  	-o-transition:      all .5s ease-in-out;
 }
 .wpcf7-form .submit input:hover {
 	background-color: #fff;
