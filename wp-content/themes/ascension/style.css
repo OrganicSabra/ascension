@@ -518,10 +518,10 @@ img.aligncenter,
 	color: #5c5c5c;
 }
 .page-content .right-content .widget_text .contact {
-	padding: 15px 10%;
+	padding: 25px 10% 0px 10%;
 }
 .page-content .right-content .widget_text .contact .row {
-	padding: 25px 0px;
+	padding: 0px 0px 25px 0px;
 }
 .page-content .right-content .widget_text img {
 	width: 96%;
