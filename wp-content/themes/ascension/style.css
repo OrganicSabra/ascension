@@ -513,6 +513,10 @@ img.aligncenter,
 	font-size: 20px;
 }
 
+.page-content .right-content .widget_text {
+	background-color: #fff;
+}
+
 /* Custom Widget Styles - Blue Title Widget */
 .page-content .right-content .blue-title-widget {
 	width: 100%;
