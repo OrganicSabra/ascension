@@ -833,6 +833,12 @@ span.wpcf7-not-valid-tip {
     margin: 0px;
 }
 
+/* FAQs */
+#accordion {
+	padding: 40px;
+}
+
+
 /* Footer Styles */
 
 .site-footer ul {
