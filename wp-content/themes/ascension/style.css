@@ -820,6 +820,9 @@ div.wpcf7-validation-errors {
     color: #eb9518;
     padding: 20px;
 }
+span.wpcf7-not-valid-tip {
+	color: #eb9518;
+}
 
 /* Footer Styles */
 
