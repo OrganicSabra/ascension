@@ -518,13 +518,13 @@ img.aligncenter,
 	color: #5c5c5c;
 }
 .page-content .right-content .widget_text .contact {
-	padding: 25px 10%;
+	padding: 15px 10%;
 }
 .page-content .right-content .widget_text .contact .row {
 	padding: 25px 0px;
 }
 .page-content .right-content .widget_text h5 {
-	border-bottom: #e8e8e8;
+	border-bottom: solid 1px #e8e8e8;
 	padding: 0px 0px 10px 0px;
 	margin: 0px 0px 10px 0px;
 	font-family: 'Open Sans', sans-serif;
