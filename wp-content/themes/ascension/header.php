@@ -21,13 +21,20 @@
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
+	
+	<link href="/wp-content/themes/ascension/bxslider/jquery.bxslider.css" rel="stylesheet" />
+	
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  	
 	<?php wp_head(); ?>
 	
 	<script src="/wp-content/themes/ascension/js/script.js"></script>
 	
 	<script src="/wp-content/themes/ascension/bxslider/jquery.bxslider.min.js"></script>
 	
-	<link href="/wp-content/themes/ascension/bxslider/jquery.bxslider.css" rel="stylesheet" />
+  	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  	
+  	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
