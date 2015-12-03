@@ -74,7 +74,7 @@ get_header(); ?>
 				<?php if($sidebar) { ?>
 					<div class="left-content">
 				<?php } ?>
-					<?php echo get_the_content(); ?>
+					<?php echo apply_filters('the_content',$page->post_content); ?>
 					
 					<?php if(get_field('include_icon_list')) {
 					?>
