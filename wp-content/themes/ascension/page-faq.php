@@ -78,12 +78,10 @@ get_header(); ?>
 					<?php echo get_the_content(); ?>
 					<?php
 					$args = array(
-						'post_type'=> 'testimonials'
+						'post_type'=> 'faq'
 					);
 					query_posts( $args );
 					while (have_posts()) : the_post();
-						$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' );
-						$url = $thumb['0'];
 						
 						echo get_the_title();
 					?>
