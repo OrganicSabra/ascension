@@ -760,6 +760,11 @@ img.aligncenter,
 }
 
 
+.wpcf7-form {
+	width: 100%;
+	padding: 40px 0px;
+}
+
 /* Footer Styles */
 
 .site-footer ul {
