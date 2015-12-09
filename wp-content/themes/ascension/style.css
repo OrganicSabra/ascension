@@ -368,6 +368,10 @@ img.aligncenter,
 .site-header .main-navigation ul li ul li.current_page_item a  {
 	color: #007cbf;
 }
+.site-header .main-navigation ul li:hover ul li:hover a a,
+.site-header .main-navigation ul li ul li.current_page_item a a {
+	color: #fff;
+} 
 /* Shared Page Styles */
 
 .fullwidth {
