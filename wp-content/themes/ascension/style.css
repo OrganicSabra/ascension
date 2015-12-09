@@ -1116,7 +1116,8 @@ span.wpcf7-not-valid-tip {
 	.wp-image-127 {
 		display: none!important;
 	}
-	#row7 .onetwothirds {
+	#row3 .row,
+	#row7 .row {
 		background-size: auto 100%!important;
 	}
 }
