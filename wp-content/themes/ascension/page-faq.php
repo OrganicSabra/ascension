@@ -8,7 +8,9 @@ get_header(); ?>
 
   <script type="text/javascript">
   $(function() {
-    $( "#accordion" ).accordion();
+    $( "#accordion" ).accordion({
+      heightStyle: "content"
+    });
   });
   </script>
 		<div id="content" class="site-content" role="main">
