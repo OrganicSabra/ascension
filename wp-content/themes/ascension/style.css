@@ -297,7 +297,7 @@ img.aligncenter,
 	z-index: 999999;
 }
 .site-header .main-navigation.non-stick {
-	position: static;
+	position: relative;
 }
 .site-header .main-navigation.sticky {
 	position: fixed;
@@ -969,7 +969,7 @@ span.wpcf7-not-valid-tip {
 		padding: 0px;
 		margin: 0px;
 		position: absolute;
-		top: 78px;
+		top: 75px;
 		right: 0px;
 		z-index: 2147483600;
 		background-color: #191e23;
