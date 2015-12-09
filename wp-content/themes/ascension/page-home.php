@@ -25,7 +25,7 @@ get_header(); ?>
 						{
 							$i++;
 							
-							echo '<div id="'.$i.'" class="section">';
+							echo '<div id="row'.$i.'" class="section">';
 							$sectionType = $row['section_type'];
 							sectionTemplate($sectionType,$row,get_the_ID());
 							echo '</div>';
