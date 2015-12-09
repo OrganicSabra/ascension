@@ -296,6 +296,13 @@ img.aligncenter,
 	background-color: #191e23;
 	z-index: 999999;
 }
+.site-header .main-navigation.sticky {
+	position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: transparent url('/wp-content/themes/ascension/images/nav-bg.png')repeat top left;
+}
 .site-header .main-navigation ul {
 	list-style: none;
 	padding: 0px;
