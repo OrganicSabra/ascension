@@ -1167,4 +1167,15 @@ span.wpcf7-not-valid-tip {
 	.twoby .twobytwo .block .inner {
 		background: none!important;
 	}
+	
+	#accordion h3 {
+		padding: 15px 15px 15px 15px;
+		background-image: none;
+		font-size: 25px;
+    	line-height: 28px;
+	}
+	#accordion div {
+		padding: 15px 15px 15px 15px; 
+		font-size: 15px;
+	}
 }
