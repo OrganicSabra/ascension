@@ -20,6 +20,8 @@ function register_my_menus() {
 }
 add_action( 'init', 'register_my_menus' );
 
+add_filter('widget_text', 'do_shortcode');
+
 function theme_slug_widgets_init() {
 	
 	register_sidebar( array(
