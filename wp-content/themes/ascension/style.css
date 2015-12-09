@@ -1126,6 +1126,11 @@ span.wpcf7-not-valid-tip {
 		background-size: auto 100%!important;
 	}
 	
+	#accordion h3 {
+		padding: 15px 15px 15px 110px;
+		background-size: 60px;
+	}
+	
 }
 
 @media screen and (max-width:549px) {
