@@ -998,8 +998,8 @@ span.wpcf7-not-valid-tip {
 		left: auto;
 		width: 100%;
 		background-color: #191e23;
-		border-top: solid 3px #007cbf;
-		border-bottom: solid 3px #007cbf;
+		border-top: 0px;
+		border-bottom: 0px;
 	}
 	
 	h1 {
