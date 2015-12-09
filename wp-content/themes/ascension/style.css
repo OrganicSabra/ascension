@@ -752,6 +752,10 @@ img.aligncenter,
     background-position: -31px -81px!important;
 }
 
+#om_container {
+	margin: 0px!important;
+}
+
 
 /* Specific Page Styles */
 .home .onetwotable {
