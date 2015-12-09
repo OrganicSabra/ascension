@@ -999,6 +999,10 @@ span.wpcf7-not-valid-tip {
 		font-size: 35px;
 	}
 	
+	.master-slider-parent {
+		display: none;
+	}
+	
 	.halves .halftable,
 	.halves .halftable .halfrow {
 		display: block;
