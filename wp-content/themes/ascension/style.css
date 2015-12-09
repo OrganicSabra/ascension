@@ -1005,9 +1005,7 @@ span.wpcf7-not-valid-tip {
 	.site-header .main-navigation ul li:hover ul li {
 		padding: 0px;
 	}
-	.site-header .main-navigation ul li:hover ul li a {
-		padding: 15px 5%;
-	}
+
 	
 	h1 {
 		font-size: 40px;
