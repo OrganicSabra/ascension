@@ -24,7 +24,7 @@ get_header(); ?>
 						foreach($rows as $row)
 						{
 							
-							echo '<div id="'.count($rows).'" class="section">';
+							echo '<div id="row'.count($rows).'" class="section">';
 							$sectionType = $row['section_type'];
 							sectionTemplate($sectionType,$row,get_the_ID());
 							echo '</div>';
