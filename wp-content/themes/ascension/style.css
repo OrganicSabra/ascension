@@ -978,7 +978,7 @@ span.wpcf7-not-valid-tip {
 		float: left;
 		display: block;
 		width: 100%;
-		padding: 15px 5%;
+		padding: 0px;
 		transition:         all .5s ease-in-out;
 	  	-webkit-transition: all .5s ease-in-out;
 	  	-moz-transition:    all .5s ease-in-out;
@@ -990,6 +990,7 @@ span.wpcf7-not-valid-tip {
 		color: #fff;
 		font-size: 14px;
 		font-weight: 400;
+		padding: 15px 5%;
 	}
 	.site-header .main-navigation ul li:hover ul {
 		display: block;
@@ -1002,7 +1003,10 @@ span.wpcf7-not-valid-tip {
 		border-bottom: 0px;
 	}
 	.site-header .main-navigation ul li:hover ul li {
-		padding: 15px 0px;
+		padding: 0px;
+	}
+	.site-header .main-navigation ul li:hover ul li a {
+		padding: 15px 5%;
 	}
 	
 	h1 {
