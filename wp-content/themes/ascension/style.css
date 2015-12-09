@@ -333,6 +333,7 @@ img.aligncenter,
 .site-header .main-navigation ul li.current_page_item,
 .site-header .main-navigation ul li.current_page_ancestor {
 	background-color: #0b0d0f;
+	padding: 0px;
 }
 .site-header .main-navigation ul li:hover a,
 .site-header .main-navigation ul li.current_page_item a {
@@ -1008,7 +1009,7 @@ span.wpcf7-not-valid-tip {
 		color: #fff;
 		font-size: 14px;
 		font-weight: 400;
-		padding: 15px 5%;
+		padding: 10px 5%;
 	}
 	.site-header .main-navigation ul li ul,
 	.site-header .main-navigation ul li:hover ul {
@@ -1020,9 +1021,6 @@ span.wpcf7-not-valid-tip {
 		background-color: #191e23;
 		border-top: 0px;
 		border-bottom: 0px;
-	}
-	.site-header .main-navigation ul li:hover ul li {
-		padding: 0px;
 	}
 
 	
