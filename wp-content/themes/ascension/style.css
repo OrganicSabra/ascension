@@ -1009,7 +1009,7 @@ span.wpcf7-not-valid-tip {
 		color: #fff;
 		font-size: 14px;
 		font-weight: 400;
-		padding: 10px 5%;
+		padding: 15px 5%;
 	}
 	.site-header .main-navigation ul li ul,
 	.site-header .main-navigation ul li:hover ul {
@@ -1119,6 +1119,14 @@ span.wpcf7-not-valid-tip {
 }
 
 @media screen and (max-width:549px) {
+	.site-header .main-navigation ul li a {
+		display: block;
+		color: #fff;
+		font-size: 14px;
+		font-weight: 400;
+		padding: 5px 5%;
+	}
+	
 	.page-content .right-content .carousel-widget .content {
 		background-size: 100% auto;
 	}
