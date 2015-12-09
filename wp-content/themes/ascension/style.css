@@ -363,7 +363,7 @@ img.aligncenter,
 }
 .site-header .main-navigation ul li:hover ul li a {
 	color: #fff;
-	padding: 15px 9%;
+	padding: 15px 5%;
 }
 .site-header .main-navigation ul li:hover ul li:hover a,
 .site-header .main-navigation ul li ul li.current_page_item a  {
