@@ -83,11 +83,8 @@ get_header(); ?>
 					);
 					query_posts( $args );
 					while (have_posts()) : the_post();
-						$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' );
+						$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
 						$url = $thumb['0'];
-						echo '<pre>';
-						print_r($thumb);
-						echo '</pre>';
 					?>
 					<div class="halves success">
 						<div class="halftable">
