@@ -320,13 +320,13 @@ img.aligncenter,
   	-webkit-transition: all .5s ease;
   	-moz-transition:    all .5s ease;
   	-o-transition:      all .5s ease;
+	padding: 30px 2%;
 }
 .site-header .main-navigation ul li a {
 	display: block;
 	color: #fff;
 	font-size: 14px;
 	font-weight: 400;
-	padding: 30px 2%;
 }
 
 .site-header .main-navigation ul li:hover,
