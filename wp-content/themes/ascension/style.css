@@ -370,7 +370,8 @@ img.aligncenter,
 }
 
 
-.site-header .main-navigation ul li.current_page_item, .site-header .main-navigation ul li.current_page_ancestor ul {
+.site-header .main-navigation ul li.current_page_item ul, 
+.site-header .main-navigation ul li.current_page_ancestor ul {
 	background-color: #fff;
 }
 
