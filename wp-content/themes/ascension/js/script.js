@@ -15,7 +15,7 @@ jQuery(function( $ ) {
 	
 	$window.scroll(function() {
 	    if ( $window.scrollTop() >= distance ) {
-	        // Your div has reached the top
+	        alert('top');
 	    }
 	});
 
