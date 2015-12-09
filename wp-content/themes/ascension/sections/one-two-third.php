@@ -14,7 +14,7 @@
 		if($bgImage) {
 			$background = 'background: '.$bgColor.' url(\''.$bgImage.'\') no-repeat top center;';
 			if($bgFill) {
-				$bgSize = 'background-size: auto 100%;';
+				$bgSize = 'background-size: 100% 100%;';
 			}
 		}
 		else {
@@ -25,7 +25,7 @@
 		if($bgImage) {
 			$background = 'background: transparent url(\''.$bgImage.'\') no-repeat top center;';
 			if($bgFill) {
-				$bgSize = 'background-size: auto 100%;';
+				$bgSize = 'background-size: 100% 100%;';
 			}
 		}
 	}
