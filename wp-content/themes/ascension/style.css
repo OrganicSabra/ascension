@@ -1120,6 +1120,7 @@ span.wpcf7-not-valid-tip {
 	#row7 .row {
 		background-size: auto 100%!important;
 	}
+	
 }
 
 @media screen and (max-width:549px) {
@@ -1131,9 +1132,7 @@ span.wpcf7-not-valid-tip {
 		padding: 8px 5%;
 	}
 	
-	.onetwothirds {
-		padding-bottom: 0px;
-	}
+	
 	.widcon {
 		padding: 40px 4%!important;
 	}
