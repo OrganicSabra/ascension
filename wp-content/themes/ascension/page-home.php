@@ -20,14 +20,16 @@ get_header(); ?>
 					$rows = get_field('home_page_section');
 					if($rows)
 					{
-					
+						$i = 0;
 						foreach($rows as $row)
 						{
-							echo $row->ID;
-							echo '<div class="section">';
+							$i++;
+							
+							echo '<div id="'.$i.'" class="section">';
 							$sectionType = $row['section_type'];
 							sectionTemplate($sectionType,$row,get_the_ID());
 							echo '</div>';
+							
 						}
 					
 					}
