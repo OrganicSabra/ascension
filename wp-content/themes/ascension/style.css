@@ -371,12 +371,18 @@ img.aligncenter,
 .site-header .main-navigation ul li.current_page_item ul li, 
 .site-header .main-navigation ul li.current_page_ancestor ul li {
 	background-color: #191e23;
+}
+.site-header .main-navigation ul li.current_page_item ul li a, 
+.site-header .main-navigation ul li.current_page_ancestor ul li a {
 	color: #fff;
 }
 .site-header .main-navigation ul li.current_page_item ul li:hover, 
 .site-header .main-navigation ul li.current_page_ancestor ul li:hover {
 	color: #007cbf;
-	color: #fff;
+}
+.site-header .main-navigation ul li.current_page_item ul li:hover a, 
+.site-header .main-navigation ul li.current_page_ancestor ul li:hover a {
+	background-color: #0b0d0f;
 }
 
 /* Shared Page Styles */
