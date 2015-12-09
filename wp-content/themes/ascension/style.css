@@ -359,6 +359,7 @@ img.aligncenter,
 .site-header .main-navigation ul li:hover ul li {
 	float: none;
 	width: 100%;
+	padding: 0px;
 }
 .site-header .main-navigation ul li:hover ul li a {
 	color: #fff;
