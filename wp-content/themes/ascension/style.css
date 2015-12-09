@@ -1138,11 +1138,10 @@ span.wpcf7-not-valid-tip {
 		padding-top: 0px!important;
 		padding-bottom: 0px!important;
 	}
-	
-	
-	.widcon {
-		padding: 40px 4%!important;
+	#row6 .widcon {
+		padding-top: 0px!important;
 	}
+	
 	.page-content .right-content .carousel-widget .content {
 		background-size: 100% auto;
 	}
