@@ -15,10 +15,12 @@ jQuery(function( $ ) {
 	
 	$window.scroll(function() {
 	    if ( $window.scrollTop() >= distance ) {
+	    	$('.main-navigation').removeClass('non-stick');
 	        $('.main-navigation').addClass('sticky');
 	    }
 	    else {
 	    	$('.main-navigation').removeClass('sticky');
+	    	$('.main-navigation').addClass('non-stick');
 	    }
 	});
 

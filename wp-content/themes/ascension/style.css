@@ -295,6 +295,7 @@ img.aligncenter,
 .site-header .main-navigation {
 	background-color: #191e23;
 	z-index: 999999;
+	position: static;
 }
 .site-header .main-navigation.sticky {
 	position: absolute;

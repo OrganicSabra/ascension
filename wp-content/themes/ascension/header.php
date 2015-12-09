@@ -52,7 +52,7 @@
 			</div>
 			<div class="clear"></div>
 		</div>
-		<div class="main-navigation">
+		<div class="main-navigation non-stick">
 			<div class="widcon">
 				<div class="mobile-btn">
 					<div class="row"></div>
