@@ -950,6 +950,7 @@ span.wpcf7-not-valid-tip {
 		
 	.site-header .main-navigation  {
 		position: relative;
+		z-index: 999999;
 	}
 	.site-header .main-navigation ul {
 		list-style: none;
@@ -960,7 +961,6 @@ span.wpcf7-not-valid-tip {
 		right: 0px;
 		z-index: 2147483600;
 		background-color: #191e23;
-		z-index: 999999;
 	}
 	.site-header .main-navigation ul li {
 		float: left;
