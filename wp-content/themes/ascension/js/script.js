@@ -9,4 +9,14 @@ jQuery(function( $ ) {
 			'controls': false
 		});
 	});
+	
+	var distance = $('.main-navigation').offset().top,
+    $window = $(window);
+	
+	$window.scroll(function() {
+	    if ( $window.scrollTop() >= distance ) {
+	        // Your div has reached the top
+	    }
+	});
+
 });
