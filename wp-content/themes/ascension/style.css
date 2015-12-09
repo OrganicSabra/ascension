@@ -1134,6 +1134,7 @@ span.wpcf7-not-valid-tip {
 	#accordion div {
 		padding: 15px 15px 15px 110px; 
 		font-size: 15px;
+		line-height: 20px;
 	}
 }
 
@@ -1171,11 +1172,8 @@ span.wpcf7-not-valid-tip {
 	#accordion h3 {
 		padding: 15px 15px 15px 15px;
 		background-image: none!important;
-		font-size: 25px;
-    	line-height: 28px;
 	}
 	#accordion div {
 		padding: 15px 15px 15px 15px; 
-		font-size: 15px;
 	}
 }
