@@ -991,8 +991,15 @@ span.wpcf7-not-valid-tip {
 		font-size: 14px;
 		font-weight: 400;
 	}
-	.site-header .main-navigation ul ul {
-	
+	.site-header .main-navigation ul li:hover ul {
+		display: block;
+		position: static;
+		top: auto;
+		left: auto;
+		width: 100%;
+		background-color: #191e23;
+		border-top: solid 3px #007cbf;
+		border-bottom: solid 3px #007cbf;
 	}
 	
 	h1 {
