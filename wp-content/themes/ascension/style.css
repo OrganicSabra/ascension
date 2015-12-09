@@ -991,6 +991,9 @@ span.wpcf7-not-valid-tip {
 		font-size: 14px;
 		font-weight: 400;
 	}
+	.site-header .main-navigation ul ul {
+		display: block;
+	}
 	
 	h1 {
 		font-size: 40px;
