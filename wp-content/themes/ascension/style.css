@@ -1116,6 +1116,9 @@ span.wpcf7-not-valid-tip {
 	.wp-image-127 {
 		display: none!important;
 	}
+	.onetwothirds {
+		background-size: auto 100%!important;
+	}
 }
 
 @media screen and (max-width:549px) {
