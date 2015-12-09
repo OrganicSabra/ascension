@@ -315,7 +315,6 @@ img.aligncenter,
 .site-header .main-navigation ul li {
 	float: left;
 	display: inline-block;
-	padding: 30px 2%;
 	position: relative;
 	transition:         all .5s ease;
   	-webkit-transition: all .5s ease;
@@ -327,6 +326,7 @@ img.aligncenter,
 	color: #fff;
 	font-size: 14px;
 	font-weight: 400;
+	padding: 30px 2%;
 }
 
 .site-header .main-navigation ul li:hover,
