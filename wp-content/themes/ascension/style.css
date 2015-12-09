@@ -993,6 +993,10 @@ span.wpcf7-not-valid-tip {
 	}
 	.site-header .main-navigation ul ul {
 		display: block;
+		transition:         none;
+	  	-webkit-transition: none;
+	  	-moz-transition:    none;
+	  	-o-transition:      none;
 	}
 	
 	h1 {
