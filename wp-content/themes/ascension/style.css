@@ -357,12 +357,12 @@ img.aligncenter,
 	border-bottom: solid 3px #007cbf;
 }
 .site-header .main-navigation ul li:hover ul li {
-	padding: 15px 9%;
 	float: none;
 	width: 100%;
 }
 .site-header .main-navigation ul li:hover ul li a {
 	color: #fff;
+	padding: 15px 9%;
 }
 .site-header .main-navigation ul li:hover ul li:hover a,
 .site-header .main-navigation ul li ul li.current_page_item a  {
