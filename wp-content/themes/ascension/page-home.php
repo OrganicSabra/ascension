@@ -23,7 +23,8 @@ get_header(); ?>
 					
 						foreach($rows as $row)
 						{
-							echo '<div class="section">';
+							$pagename = strtolower(preg_replace( '/\s+/', '',get_the_title()));
+							echo '<div id="'.$pagename.'" class="section">';
 							$sectionType = $row['section_type'];
 							sectionTemplate($sectionType,$row,get_the_ID());
 							echo '</div>';

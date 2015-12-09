@@ -48,6 +48,8 @@
 	if($twoVertAlign) {
 		$twoVertAlign = 'vertical-align: '.$twoVertAlign.';';
 	}
+	
+	
 ?>
 
 	<div class="row onetwothirds" style="<?php echo $background . $bgSize . $fontColor; ?>">
