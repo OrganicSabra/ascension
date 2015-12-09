@@ -15,7 +15,16 @@ jQuery(function( $ ) {
 	
 	$window.scroll(function() {
 	    if ( $window.scrollTop() >= distance ) {
-	        alert('top');
+	        $('.main-navigation').css({
+		      'position' : 'absolute',
+		      'top' : '0px',
+		      'left' : '0px'
+		    });
+	    }
+	    else {
+	    	$('.main-navigation').css({
+		      'position' : 'relative'
+		    });
 	    }
 	});
 
